@@ -1,34 +1,5 @@
-.tabs {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    border-top: 2px solid #ddd;
-    width: 100%
-}
-  .tab {
-    flex: 1;
-    padding: 20px 0;
-    margin: 0;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-    border-radius: 0;
-    font-size: 20px; 
-    transition: background-color 0.3s;
-    box-sizing: border-box;
-}
-  .tab:hover {
-    background-color: #df5fcc;
-}
-  .tab.active {
-    background-color: #725697;
-    color: rgb(255, 255, 255);
-    border-bottom: none;
-}  
-              
-        
+/*About Page Structure*/
+
         body {
             /*trust the system ui fonts that are the default font of the operation system 0*/
             font-family: system-ui, sans-serif;
@@ -37,6 +8,7 @@
             margin: 28px;
             padding-left: 82px;
         }
+
         .container {
             /*It's wide enough to accommodate complex layouts on desktop screens while not being so wide that it looks empty or sparse on larger monitors.*/
             max-width: 1200px;
@@ -44,14 +16,36 @@
             margin: 0 auto;
             padding: 20px;
         }
-        .top-half {
-            
+        .top-half {  
             display: flex;  
-           
             justify-content: space-between;
             margin-bottom: 40px;
+            
         }
+
+
+
+
+         .top-half h1{  border: 3px solid #725697;}
         
+        .topcontainer h1{ border: 3px solid #725697;}
+
+  .top-half p {  border: 3px solid #725697;}
+        
+        .topcontainer p { border: 3px solid #725697;}
+
+
+  .top-half img {  border: 3px solid #725697;}
+        
+        .topcontainer img { border: 3px solid #725697;}
+
+
+
+
+
+        
+
+
         .top-container {
             /* notice this is as close to half giving a bit of space between copy and photo*/
             width: 48%;
@@ -81,6 +75,7 @@
             color: #333;
         }
 
+/*Columns Section*/
 
 .two-columns {
   display: flex;
@@ -111,7 +106,7 @@
   padding-left: 0;
 }
 
-        /*this allows us to make social media links icons that change color on hover*/
+/*Social Media Icons that change color on hover*/
         .social-icon {
             font-size: 24px;
             transition: color 0.3s ease;
@@ -129,6 +124,9 @@
             color: #00A0DC;
         }
 
+
+
+/*List and Text items*/       
         h1, h3 {
             color: #000000;
         }
@@ -155,6 +153,8 @@
             text-indent: -5px;
           }
 
+  /*Footer*/
+
         footer {
             text-align: center;
             color: rgb(255, 255, 255);
@@ -163,30 +163,46 @@
             padding-top: 10px;
             background-color: #725697;
         }
+     
+
+/*Portfolio Galler Pages*/
+
+  /*Tabs Section*/
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    width: 100%
+}
+  .tab {
+    flex: 1;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-radius: 0;
+    font-size: 20px; 
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+  .tab:hover {
+    background-color: #df5fcc;
+}
+  .tab.active {
+    background-color: #725697;
+    color: rgb(255, 255, 255);
+    border-bottom: none;
+}  
 
 
-        /*this collapses everything to one column at 768px*/
-        @media screen and (max-width: 768px) {
-            .top-container,
-            .bottom-container {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-            .top-half,
-            .bottom-half {
-                flex-direction: column;
-            }
-            nav {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            nav a {
-                margin: 5px 0;
-            }
-        }
+/*Images and Grids*/
 
-        /*trying to make the work responsive in the easiest grid template column outline*/
+/*UX Projects Portfolio*/
         .image-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -256,6 +272,8 @@
   color: #333; }
 
 
+  /*Animated Films Portfolio*/
+
    .image-grid-two {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -304,6 +322,11 @@
   }
  
 
+
+
+
+
+  /*Responsive CSS For Mobile Phones*/
        
         @media screen and (max-width: 768px) {
             .top-container,
