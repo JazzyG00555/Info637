@@ -23,15 +23,11 @@
     background-color: #df5fcc;
 }
   .tab.active {
-    background-color: rgb(0, 0, 0);
+    background-color: #725697;
     color: rgb(255, 255, 255);
     border-bottom: none;
-}
-        
-        
-        
-        
-        
+}  
+              
         
         body {
             /*trust the system ui fonts that are the default font of the operation system 0*/
@@ -189,3 +185,155 @@
                 margin: 5px 0;
             }
         }
+
+        /*trying to make the work responsive in the easiest grid template column outline*/
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px; 
+            justify-content:center;
+          }
+
+        .image-item {position: relative;}
+          
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            /*preserves the original aspect ratio, but the image occupies all the available space*/
+            object-fit: cover;
+        
+            /*where you want the image to be positioned*/
+            object-position: top;
+            display: block;
+            border-radius: 8px;
+            
+          }
+
+        .image-item img:hover{
+            opacity: 20%;
+        }
+    
+        .image-item p{
+           color:#333;
+            font-size: xx-large;
+            /*position tells us they want us to be absolute in the top position relative to where the copy lives on the image*/
+            position: absolute;
+            top:40%;
+            left: 10%;
+            opacity: 0; /* Hidden by default */
+
+        }
+
+        .image-item-boiler-plate {
+            background: #ffffff; 
+            overflow: hidden;
+            display: flex;
+            border-radius: 8px;
+            text-align: center;
+            justify-content: center;   /* center horizontally */
+            align-items: center;
+        }
+
+        .image-item-boiler-plate img{ 
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;   
+            display: block; 
+        width: 550px;          /* fill the grid cell width */
+  height: 520px;        /* fixed height for all images */
+  object-fit: cover;    /* crop nicely, no stretching */
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+  
+  .image-item-boiler-plate p{ 
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;  
+            display: block;
+        margin: 10px;
+  font-size: 1rem;
+  color: #333; }
+
+
+   .image-grid-two {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px; 
+            justify-content:center;
+          }
+
+        
+  .image-item-boiler-plate-two{  
+            background: #ffffff; 
+            overflow: hidden;
+            display: flex;
+            border-radius: 8px;
+            text-align: center;
+            justify-content: center;   /* center horizontally */
+            align-items: center;
+            width: 100%
+          
+        }
+
+
+.image-item-boiler-plate-two img{ max-width: 90%;   
+            height: auto;
+            margin: 0 auto;   
+            display: block; 
+            width: 535px;          /* fill the grid cell width */
+            height: 555px;        /* fixed height for all images */
+            object-fit: cover;    /* crop nicely, no stretching */
+            display: block;
+            border-radius: 8px 8px 0 0;
+}
+
+.image-item-boiler-plate-two p{ 
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;  
+            display: block;
+        margin: 10px;
+  font-size: 1rem;
+  color: #333; }
+
+  .image-item p:hover {
+    opacity: 1; /* Show on hover */
+    transition: opacity 0.3s ease; /* Smooth transition for fade in/out */
+
+  }
+ 
+
+       
+        @media screen and (max-width: 768px) {
+            .top-container,
+            .bottom-container {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .top-half,
+            .bottom-half {
+                flex-direction: column;
+            }
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+
+            .image-grid {
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+        }
+
+
+
+
+
+        
+        
