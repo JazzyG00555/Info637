@@ -27,16 +27,17 @@
             margin-top: 20px;
             border-radius: 15px; 
             color: #ffffff; 
-            border: 8px solid #725697; 
-            background-color: #725697;}
+            border: 5px solid #725697; 
+            background-color: #725697;
+        text-align: center;}
 
          .top-half img{ 
             margin-top: 20px;
             border-radius: 15px; 
             color: #ffffff; 
-            border: 12px solid #725697; 
+            border: 5px solid #725697; 
             background-color: #725697;
-        padding-top: 20px }
+        padding-top: 0px }
 
         .top-container {
             /* notice this is as close to half giving a bit of space between copy and photo*/
@@ -230,12 +231,10 @@
             height: auto;
             margin: 0 auto;   
             display: block; 
-        width: 550px;          /* fill the grid cell width */
-  height: 520px;        /* fixed height for all images */
-  object-fit: cover;    /* crop nicely, no stretching */
-  display: block;
-  
-
+            width: 550px;          /* fill the grid cell width */
+            height: 520px;        /* fixed height for all images */
+            object-fit: cover;    /* crop nicely, no stretching */
+            display: block;
 }
   
   .image-item-boiler-plate p{ 
@@ -300,22 +299,20 @@
 
 /*Overlay Options*/
 
-/* container for each image */
+/* container */
 .image-overlay {
-  position: relative;
- width: 550px;          /* fill the grid cell width */
-  height: 520px;     
-  overflow: hidden;
-  border-radius: 8px;
-}
+position: relative;
+width: 550px;         
+height: 520px;     
+overflow: hidden;
+} 
 
 /* the image */
 .image-overlay img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
+  width: 550px;         
+  height: 520px; 
+  object-fit: cover;     
+  transition: transform 0.5s ease;
 }
 
 /* dark transparent overlay */
@@ -323,11 +320,12 @@
   position: absolute;
   top: 0;
   left: 0;
-width: 98%;          /* fill the grid cell width */
-height: 100%;    
-  background: rgba(0,0,0,0.5);
+  width: 520px;         
+  height: 550px; 
+  background: rgba(255, 255, 255, 0.669);
   opacity: 0;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.8s ease;
+  padding-left: 85px;
 }
 
 /* centered text */
@@ -336,14 +334,15 @@ height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 155px;
+  font-weight: 1000;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.4s ease;
-  padding: 0 10px; /* small padding so text doesn’t touch edges */
+  transition: opacity 0.5s ease;
+  padding: 20px; /* small padding so text doesn’t touch edges */
 }
+
+
 
 /* hover effects */
 .image-overlay:hover img {
@@ -356,8 +355,8 @@ height: 100%;
 
 .image-overlay:hover .overlay-text {
   opacity: 1;
-}
 
+}
 
 
 
