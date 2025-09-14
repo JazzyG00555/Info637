@@ -42,6 +42,7 @@
         .top-container {
             /* notice this is as close to half giving a bit of space between copy and photo*/
             width: 48%;
+           
         }
 
         .bottom-half {
@@ -63,6 +64,7 @@
         }
 
         nav {
+            font-family: 'Times New Roman', Times, serif;
             margin-bottom: 20px;
         }
 
@@ -103,20 +105,33 @@
 
 
 /*List and Text items*/       
-        h1, h3 {
+        h1 {
             color: #000000;
+        font-family: 'Times New Roman', Times, serif;}
+
+        h3 {
+            color: #000000;
+            font-family: 'Times New Roman', Times, serif;
         }
 
-        h2{ margin-left: 0px;}
+        h2{ 
+            margin-left: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        
+        }
+
+        h4 {font-family: 'Times New Roman', Times, serif;}
         
         ul {
             padding-left: 10px;
             margin: 0;
             margin-left: 0px;
+            font-family: 'Times New Roman', Times, serif;
         }
 
           ul.dashed {
             list-style-type: none;
+            font-family: 'Times New Roman', Times, serif;
     
           }
 
@@ -131,7 +146,7 @@
 
   /*Footer*/
 
-        footer {
+        footer {font-family: 'Times New Roman', Times, serif;
             text-align: center;
             color: rgb(255, 255, 255);
             margin-top: 40px;
@@ -166,6 +181,7 @@
     transition: background-color 0.3s;
     box-sizing: border-box;
     border-bottom: #e2e1e1;
+    font-family: 'Times New Roman', Times, serif;
 }
   .tab:hover {
     background-color: #df5fcc;
@@ -253,7 +269,7 @@
    .image-grid-two {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 20px; 
+            gap: 80px; 
             justify-content:center;
             padding-top: 5%
           }
@@ -299,7 +315,7 @@
 
 
 
-/*Overlay Options*/
+/*Overlay Options of UX Project Portfolio*/
 
 /*Container*/
 .image-overlay {
@@ -324,12 +340,12 @@ overflow: hidden;
   left: 0;
   width: 326px;     
   height: 550px; 
-  background: #745079ba;
+  background: #3d2640de;
   opacity: 0;
   transition: opacity 0.8s ease;
   padding-left: 195px;
   margin-left: 14px; 
-  display: flex;                 /* center text using flex if you want */
+  display: flex;                
   justify-content: center;
   align-items: center;
 
@@ -346,6 +362,7 @@ overflow: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -392,7 +409,7 @@ overflow: hidden;
   justify-content: space-between;
 gap: 20px; }
 
-h4 {}
+
 
 
 
