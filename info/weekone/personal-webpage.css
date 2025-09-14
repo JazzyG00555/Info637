@@ -321,13 +321,14 @@ overflow: hidden;
 .overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5;
   width: 450px;     
   height: 550px; 
-  background: #c088c7ca;
+  background: #745079e8;
   opacity: 0;
   transition: opacity 0.8s ease;
   padding-left: 85px;
+
 }
 
 /*Centered Text*/
