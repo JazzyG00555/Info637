@@ -16,59 +16,55 @@
             margin: 0 auto;
             padding: 20px;
         }
+
         .top-half {  
             display: flex;  
             justify-content: space-between;
-            margin-bottom: 40px;
-            
+            margin-bottom: 40px;            
         }
 
+         .top-half h1{ 
+            margin-top: 20px;
+            border-radius: 15px; 
+            color: #ffffff; 
+            border: 8px solid #725697; 
+            background-color: #725697;}
 
-
-
-         .top-half h1{  border: 3px solid #725697;}
-        
-        .topcontainer h1{ border: 3px solid #725697;}
-
-  .top-half p {  border: 3px solid #725697;}
-        
-        .topcontainer p { border: 3px solid #725697;}
-
-
-  .top-half img {  border: 3px solid #725697;}
-        
-        .topcontainer img { border: 3px solid #725697;}
-
-
-
-
-
-        
-
+         .top-half img{ 
+            margin-top: 20px;
+            border-radius: 15px; 
+            color: #ffffff; 
+            border: 12px solid #725697; 
+            background-color: #725697;
+        padding-top: 20px }
 
         .top-container {
             /* notice this is as close to half giving a bit of space between copy and photo*/
             width: 48%;
         }
+
         .bottom-half {
             display: flex;
             justify-content: space-between;
         }
+
         .bottom-container {
             /* the bottom containers also get a bit more spacing between them*/
             width: 100%;
-            
+     
         }
+
         img {
             /*this translates to make the photo the size of the container and adjust the height accordingly*/
             max-width: 70%;
             height: auto;
-            display: center;
-            padding-top: 12%;
+            display: center;           
         }
+
         nav {
             margin-bottom: 20px;
         }
+
         nav a {
             margin-right: 10px;
             text-decoration: none;
@@ -83,28 +79,7 @@
   justify-content: space-between;  
 }
 
-.left-column,
-.right-column {
-  flex: 2; 
-  min-width: 300px; }
 
-.left-column ul,
-.right-column ul {
-  list-style-type: disc; /* restore bullets */
-  padding-left: 20px;    /* indentation so bullets don’t overlap text */
-  margin: 0;}
-
-.left-column h2,
-.right-column h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.left-column ul,
-.right-column ul {
-  list-style-type: none;
-  padding-left: 0;
-}
 
 /*Social Media Icons that change color on hover*/
         .social-icon {
@@ -134,7 +109,7 @@
         h2{ margin-left: 0px;}
         
         ul {
-            padding-left: 150px;
+            padding-left: 10px;
             margin: 0;
             margin-left: 0px;
         }
@@ -170,25 +145,26 @@
   /*Tabs Section*/
 
 .tabs {
+    
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    border-top: 2px solid #ddd;
     width: 100%
 }
   .tab {
     flex: 1;
     padding: 20px 0;
     margin: 0;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
+    background-color: #e2e1e1;
+    border: 5px solid #ffffff;
     text-align: center;
     text-decoration: none;
     color: #333;
-    border-radius: 0;
+    border-radius: 15px;
     font-size: 20px; 
     transition: background-color 0.3s;
     box-sizing: border-box;
+    border-bottom: #e2e1e1;
 }
   .tab:hover {
     background-color: #df5fcc;
@@ -196,7 +172,7 @@
   .tab.active {
     background-color: #725697;
     color: rgb(255, 255, 255);
-    border-bottom: none;
+    
 }  
 
 
@@ -208,17 +184,16 @@
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 20px; 
             justify-content:center;
+             padding-top: 5%
           }
 
-        .image-item {position: relative;}
+        .image-item {position: relative;
+        overflow: hidden;}
           
         .image-item img {
             width: 100%;
             height: 200px;
-            /*preserves the original aspect ratio, but the image occupies all the available space*/
             object-fit: cover;
-        
-            /*where you want the image to be positioned*/
             object-position: top;
             display: block;
             border-radius: 8px;
@@ -244,7 +219,7 @@
             background: #ffffff; 
             overflow: hidden;
             display: flex;
-            border-radius: 8px;
+            
             text-align: center;
             justify-content: center;   /* center horizontally */
             align-items: center;
@@ -259,7 +234,8 @@
   height: 520px;        /* fixed height for all images */
   object-fit: cover;    /* crop nicely, no stretching */
   display: block;
-  border-radius: 8px 8px 0 0;
+  
+
 }
   
   .image-item-boiler-plate p{ 
@@ -279,6 +255,7 @@
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 20px; 
             justify-content:center;
+             padding-top: 5%
           }
 
         
@@ -286,7 +263,7 @@
             background: #ffffff; 
             overflow: hidden;
             display: flex;
-            border-radius: 8px;
+        
             text-align: center;
             justify-content: center;   /* center horizontally */
             align-items: center;
@@ -303,7 +280,7 @@
             height: 555px;        /* fixed height for all images */
             object-fit: cover;    /* crop nicely, no stretching */
             display: block;
-            border-radius: 8px 8px 0 0;
+           
 }
 
 .image-item-boiler-plate-two p{ 
@@ -315,12 +292,75 @@
   font-size: 1rem;
   color: #333; }
 
-  .image-item p:hover {
-    opacity: 1; /* Show on hover */
-    transition: opacity 0.3s ease; /* Smooth transition for fade in/out */
 
-  }
- 
+
+
+
+
+
+/*Overlay Options*/
+
+/* container for each image */
+.image-overlay {
+  position: relative;
+ width: 550px;          /* fill the grid cell width */
+  height: 520px;     
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* the image */
+.image-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* dark transparent overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 98%;          /* fill the grid cell width */
+height: 100%;    
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* centered text */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  padding: 0 10px; /* small padding so text doesn’t touch edges */
+}
+
+/* hover effects */
+.image-overlay:hover img {
+  transform: scale(1.05);
+}
+
+.image-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.image-overlay:hover .overlay-text {
+  opacity: 1;
+}
+
+
+
+
 
 
 
