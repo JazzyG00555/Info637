@@ -162,9 +162,11 @@
 
    /*Description*/
 
-.description {font-size: 20px;
-margin-right: 588px;
-margin-left: 15px }
+.description {font-size: 25px;
+margin-right: 415px;
+margin-left: 15px;
+font-family: 'Times New Roman', Times, serif;
+ }
 
   /*Tabs Section*/
 
@@ -272,53 +274,7 @@ margin-left: 15px }
         }
 
 
-  /*Animated Films Portfolio*/
-
-   .image-grid-two {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 80px; 
-            justify-content:center;
-            padding-top: 5%
-          }
-
-        
-  .image-item-boiler-plate-two{  
-            background: #ffffff; 
-            overflow: hidden;
-            display: flex;
-            text-align: center;
-            justify-content: center;   /* center horizontally */
-            align-items: center;
-            width: 100%
-          
-        }
-
-
-.image-item-boiler-plate-two img{ 
-            max-width: 90%;   
-            height: auto;
-            margin: 0 auto;   
-            display: block; 
-            width: 535px;          /* fill the grid cell width */
-            height: 555px;        /* fixed height for all images */
-            object-fit: cover;    /* crop nicely, no stretching */
-            display: block;
-           
-}
-
-.image-item-boiler-plate-two p{ 
-            max-width: 90%;   
-            height: auto;
-            margin: 0 auto;  
-            display: block;
-            margin: 10px;
-            font-size: 1rem;
-            color: #333;
-         }
-
-
-/*Overlay Options of UX Project Portfolio*/
+        /*Overlay Options of UX Project Portfolio*/
 
 /*Container*/
 .image-overlay {
@@ -345,7 +301,7 @@ overflow: hidden;
   left: 0;
   width: 326px;     
   height: 550px; 
-  background: #3d2640de;
+  background: #3d2640f7;
   opacity: 0;
   transition: opacity 0.8s ease;
   padding-left: 195px;
@@ -387,29 +343,185 @@ overflow: hidden;
 }
 
 
-/*Specific Ux Projects Portfolio Project Page*/
 
-.overviewtext{
-    padding-left: 15px; 
-margin-left: 15px }
+/*Animated Films Portfolio*/
 
-.titles-margins{padding-left: 15px; 
-margin-left: 15px }
+   .image-grid-two {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 80px; 
+            justify-content:center;
+            padding-top: 5%
+          }
 
-.projectphoto{ 
-         width: 550%;
-         text-align: center; }
+        
+  .image-item-boiler-plate-two{  
+            background: #ffffff; 
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            justify-content: center;   /* center horizontally */
+            align-items: center;
+            width: 100%
+          
+        }
 
 
-.split-columns{
-  display: flex;
-  justify-content: space-between;  
+.image-item-boiler-plate-two img{ 
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;   
+            display: block; 
+            width: 535px;          /* fill the grid cell width */
+            height: 555px;        /* fixed height for all images */
+            object-fit: cover;    /* crop nicely, no stretching */
+            display: block;
+           
+}
+
+.image-item-boiler-plate-two p{ 
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;  
+            display: block;
+            margin: 10px;
+            font-size: 1.5rem;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+         }
+
+
+/*Overlay Options of Animated Films Portfolio*/
+
+/*Container*/
+.image-overlay-two {
+position: relative;
+width: 535px;         
+height: 555px;  
+overflow: hidden;
+} 
+
+/*The image*/
+.image-overlay-two img {
+  width: 535px;         
+  height: 555px;    
+  object-fit: cover;     
+  transition: transform 0.5s ease;  
+}
+
+/*Transparent overlay */
+.overlay-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 535px;         
+  height: 555px;
+  background: #3d2640f7;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  padding-left: 585px;
+  margin-left: 15px;
+  
+}
+
+/*Centered Text*/
+.overlay-text-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;   
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* hover effects */
+.image-overlay-two:hover img {
+  transform: scale(1.05);
+}
+
+.image-overlay-two:hover .overlay-two {
+  opacity: 1;
+}
+
+.image-overlay-two:hover .overlay-text-two {
+  opacity: 1;
 
 }
 
+
+
+
+
+/*Specific Ux Projects Portfolio Project Page*/
+
+.titles-margins{
+    padding-left: 15px; 
+margin: 15px;
+padding-right: 15px;
+ }
+
+
+ .titles-margins h1{ font-size: 42px;
+font-family: 'Times New Roman', Times, serif;}
+
+.titles-margins h2{ font-size: 35px;
+font-family: 'Times New Roman', Times, serif;}
+
+.split-columns{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  gap: 30px;
+  
+}
+.overviewtext{
+padding:0 25px; 
+margin: 0;
+flex:1;
+max-width: 600px; 
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;}
+
+.overviewtext b{
+    
+font-size: 35px;
+font-family: 'Times New Roman', Times, serif;}
+
+.projectphoto{ 
+       
+        flex-shrink:0;
+        max-width:425px;
+         text-align: right;
+         margin: 0;
+         margin-bottom: 15px;
+           margin-right: 15px;      
+         }
+
+.projectphoto img{ 
+       
+        max-width:95%;
+        height:auto;
+        display: block;  
+         }
+
+                  
+
+.info-box-container {
+       background-color: #725697;
+       width: 349.5px;
+       height: 95px;
+       padding-left: 54px;
+
+       }
+.h2-elements{padding-top: 55px;}
+
 .left-side{display: flex;
   justify-content: space-between;
-gap: 20px; }
+gap: 30px; }
 
 
   /*Responsive CSS*/
