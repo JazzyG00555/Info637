@@ -167,27 +167,32 @@
   justify-content: space-between;
 align-items: center;   } 
 
-.description {
+.description{ 
    flex: 1;
    font-size: 28px;
-    padding-right: 355px;
-margin: 15px;
+   margin-right: 35px;
+margin: 35px;
 font-family: 'Times New Roman', Times, serif;
  }
 
-.description-image{
+.description-rose{
     flex-shrink: 0; 
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
-    margin: 15px;  
+    
 }
 
-.description-image img {
+.description-rose img {
   width: 100%;          
   height: auto;
-  display: block;
-display: right;
+display: block;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 45px;
 }
+
+
+
   /*Tabs Section*/
 
 .tabs {
@@ -448,6 +453,7 @@ overflow: hidden;
 .overlay-text-two {
   position: absolute;
   top: 50%;
+
   left: 50%;
   font-weight: bold;   
   transform: translate(-50%, -50%);
@@ -478,14 +484,11 @@ overflow: hidden;
 
 /*Specific Ux Projects Portfolio Project Page*/
 
-.titles-margins{
-    padding-left: 15px; 
-margin: 15px;
-padding-right: 15px;
- }
 
 
- .titles-margins h1{ font-size: 42px;
+/*take out title margins h1 and h2*/
+ .titles-margins h1 margin: 15px;
+    font-size: 42px;
 font-family: 'Times New Roman', Times, serif;}
 
 .titles-margins h2{ font-size: 35px;
@@ -503,7 +506,7 @@ padding:0 25px;
 margin: 0;
 flex:1;
 max-width: 600px; 
-font-size: 28px;
+font-size: 25px;
 font-family: 'Times New Roman', Times, serif;}
 
 .overviewtext b{
@@ -515,8 +518,7 @@ font-family: 'Times New Roman', Times, serif;}
        
         flex-shrink:0;
         max-width:415px;
-        
-         margin: 0;
+         margin: 15px;
          margin-bottom: 15px;
         margin-right: 15px;       
          }
@@ -535,29 +537,44 @@ font-family: 'Times New Roman', Times, serif;}
         border-bottom-right-radius:15px;
         margin-top: -18px;
         margin-right: 21.2px;
-       
        }
 
        .info-box-container b {
        color: #ffffff;
        width: 349px;
        height: 95px;
+       font-family: 'Times New Roman', Times, serif;
        }
 
 
        .info-box-container p {
        color: #e0dae9;
- 
-    
+       font-family: 'Times New Roman', Times, serif;
        }
 
-.h2-elements{padding-top: 55px;}
+.h2-elements{
+    padding-top: 55px;
+}
 
-.left-side{display: flex;
-  justify-content: space-between;
+.left-side{
+display: flex;
+justify-content: space-between;
 gap: 30px;
-padding-left:15px; padding-right: 15px; }
+padding-left:20px; 
+padding-right: 20px; 
+}
 
+
+.left-side h3{
+    display: left;
+
+}
+.prototype img{ 
+    width: 8550px;
+    height: auto; 
+    padding: 25px;
+    display: center;
+}
 
   /*Responsive CSS*/
        
