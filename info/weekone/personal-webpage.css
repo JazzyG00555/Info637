@@ -162,12 +162,32 @@
 
    /*Description*/
 
-.description {font-size: 25px;
-margin-right: 415px;
-margin-left: 15px;
+.two-columns{ display: flex;
+   gap: 5px;
+  justify-content: space-between;
+align-items: center;   } 
+
+.description {
+   flex: 1;
+   font-size: 28px;
+    padding-right: 355px;
+margin: 15px;
 font-family: 'Times New Roman', Times, serif;
  }
 
+.description-image{
+    flex-shrink: 0; 
+    max-width: 300px;
+    height: auto;
+    margin: 15px;  
+}
+
+.description-image img {
+  width: 100%;          
+  height: auto;
+  display: block;
+display: right;
+}
   /*Tabs Section*/
 
 .tabs {
@@ -483,7 +503,7 @@ padding:0 25px;
 margin: 0;
 flex:1;
 max-width: 600px; 
-font-size: 25px;
+font-size: 28px;
 font-family: 'Times New Roman', Times, serif;}
 
 .overviewtext b{
@@ -494,34 +514,49 @@ font-family: 'Times New Roman', Times, serif;}
 .projectphoto{ 
        
         flex-shrink:0;
-        max-width:425px;
-         text-align: right;
+        max-width:415px;
+        
          margin: 0;
          margin-bottom: 15px;
-           margin-right: 15px;      
+        margin-right: 15px;       
          }
 
 .projectphoto img{ 
-       
         max-width:95%;
         height:auto;
         display: block;  
-         }
-
-                  
+         }              
 
 .info-box-container {
-       background-color: #725697;
-       width: 349.5px;
-       height: 95px;
-       padding-left: 54px;
-
+        background-color: #725697;
+        padding: 15px;
+        margin-top: 75px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius:15px;
+        margin-top: -18px;
+        margin-right: 21.2px;
+       
        }
+
+       .info-box-container b {
+       color: #ffffff;
+       width: 349px;
+       height: 95px;
+       }
+
+
+       .info-box-container p {
+       color: #e0dae9;
+ 
+    
+       }
+
 .h2-elements{padding-top: 55px;}
 
 .left-side{display: flex;
   justify-content: space-between;
-gap: 30px; }
+gap: 30px;
+padding-left:15px; padding-right: 15px; }
 
 
   /*Responsive CSS*/
