@@ -7,12 +7,11 @@
         margin: 6px;
     }
 
-
 /*About Page Structure*/
 
         body {
            
-            font-family: system-ui, sans-serif;
+             font-family: 'Times New Roman', Times, serif;
             line-height: 1.6;
             margin: 28px;
             padding-left: 82px;
@@ -81,6 +80,11 @@
             color: #333;
         }
 
+.font-size {
+    font-size: 21px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /*Columns Section*/
 
 .two-columns {
@@ -147,7 +151,8 @@
 
   /*Footer*/
 
-        footer {font-family: 'Times New Roman', Times, serif;
+        footer {
+            font-family: 'Times New Roman', Times, serif;
             text-align: center;
             color: rgb(255, 255, 255);
             margin-top: 40px;
@@ -162,7 +167,7 @@
 
    /*Description*/
 
-.two-columns{ display: flex;
+.double-columns{ display: flex;
    gap: 5px;
   justify-content: space-between;
 align-items: center;   } 
@@ -294,7 +299,7 @@ margin-left: 45px;
             margin: 0 auto;  
             display: block;
             margin: 10px;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             color: #ffffff; 
         }
 
@@ -410,7 +415,7 @@ overflow: hidden;
             margin: 0 auto;  
             display: block;
             margin: 10px;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             color: #ffffff;
             font-family: 'Times New Roman', Times, serif;
          }
@@ -444,8 +449,9 @@ overflow: hidden;
   background: #3d2640f7;
   opacity: 0;
   transition: opacity 0.8s ease;
-  padding-left: 585px;
-  margin-left: 15px;
+  padding-left: 195px;
+  margin-left: 14px; 
+  align-items: center;
   
 }
 
@@ -453,7 +459,6 @@ overflow: hidden;
 .overlay-text-two {
   position: absolute;
   top: 50%;
-
   left: 50%;
   font-weight: bold;   
   transform: translate(-50%, -50%);
@@ -477,9 +482,6 @@ overflow: hidden;
   opacity: 1;
 
 }
-
-
-
 
 
 /*Specific Ux Projects Portfolio Project Page*/
