@@ -565,69 +565,53 @@ font-family: 'Times New Roman', Times, serif;}
 .triple-column{
 display: flex;
 justify-content: space-between;
-  position: relative;
-  display: flex;
-justify-content: space-between;
+position: relative;
 gap: 25px;
-border: #725697;}
+border: #725697;
+}
+
+.triple-column h3{ 
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .design-box{
-  border: 8px solid #725697;
+  border: 5.5px solid #725697;
   border-radius: 15px;
-  padding: 35px;
-  width: 250px;
+  padding: 15px;
+  width: 278px;
   height: 215px;
   background-color: #ffffff;
   margin: 15px;
-  padding-bottom: 55px;
+  padding-bottom: 65px;
 }
-
 
 .design-box h3{
- border: 8px solid #725697;
- border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-  text-align: center;
+border: 3px solid #725697;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+text-align: center;
 background-color: #725697;
-width: 270px;
-  height: 58px;
-  padding:right
-
-  
+width: 290px;
+height: 55px;
+padding-top: 15px;  
 }
 
-.triple-column h3{
+.title-spacing{
+    padding-top: 35px;
 }
-
-
 
 .prototype-column{
+justify-content: space-between;
+margin: 15px;
+}
+
+
+.prototype{
+justify-content: space-between;
+gap: 45px;
 text-align: center;
-justify-content: space-between;
-gap: 45px;
-padding-left:25px; 
-padding-right: 58px; 
-}
-
-
-.prototype-column li{
-justify-content: space-between;
-gap: 45px;
-padding-left:25px; 
-padding-right: 58px; 
-}
-
-.left-side{
-display: flex;
-justify-content: space-between;
-gap: 30px;
-padding-left:20px; 
-padding-right: 20px; 
-}
-
-
-.left-side h3{
-    display: left;
 }
 
 .prototype img{ 
@@ -636,6 +620,36 @@ padding-right: 20px;
    display: right;
    
 }
+
+.reflections-columns{
+
+border: 5.5px solid #725697;
+  border-radius: 15px;
+  padding: 15px;
+  width: 1058px;
+  height: 175px;
+  background-color: #ffffff;
+  margin: 15px;
+  padding-bottom: 65px;
+
+}
+
+
+
+.reflections-columns h3{
+    border: 3px solid #725697;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+text-align:right;
+background-color: #725697;
+width: 1072px;
+height: 55px;
+padding-top: 15px; 
+display:right;
+
+}
+
+
 
 
   /*Responsive CSS*/
