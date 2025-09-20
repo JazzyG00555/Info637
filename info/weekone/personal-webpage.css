@@ -493,7 +493,7 @@ overflow: hidden;
 
 
 /*take out title margins h1 and h2*/
- .titles-margins h1 margin: 15px;
+ .titles-margins h1 {margin: 15px;
     font-size: 42px;
 font-family: 'Times New Roman', Times, serif;}
 
@@ -626,31 +626,32 @@ text-align: center;
 border: 5.5px solid #725697;
   border-radius: 15px;
   padding: 15px;
-  width: 1058px;
-  height: 175px;
+  width: 1118px;
+  height: 185px;
   background-color: #ffffff;
   margin: 15px;
-  padding-bottom: 65px;
+  padding-bottom: 15px;
 
 }
-
-
 
 .reflections-columns h3{
-    border: 3px solid #725697;
+border: 11px solid #725697;
 border-bottom-left-radius: 15px;
 border-top-left-radius: 15px;
-text-align:right;
+text-align:center;
 background-color: #725697;
-width: 1072px;
-height: 55px;
+color: #ffffff;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+width: 501px;
+height: 38px;
 padding-top: 15px; 
-display:right;
+display:center;
+margin-right: 15px;
+margin-left: 615px;
+
 
 }
-
-
-
 
   /*Responsive CSS*/
        
