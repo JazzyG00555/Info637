@@ -565,22 +565,41 @@ font-family: 'Times New Roman', Times, serif;}
 .triple-column{
 display: flex;
 justify-content: space-between;
-gap: 45px;
-text-align: center;
-border: #725697;
-padding-bottom:15px;
+  position: relative;
+  display: flex;
+justify-content: space-between;
+gap: 25px;
+border: #725697;}
 
+.design-box{
+  border: 8px solid #725697;
+  border-radius: 15px;
+  padding: 35px;
+  width: 250px;
+  height: 215px;
+  background-color: #ffffff;
+  margin: 15px;
+  padding-bottom: 55px;
+}
+
+
+.design-box h3{
+ border: 8px solid #725697;
+ border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  text-align: center;
+background-color: #725697;
+width: 270px;
+  height: 58px;
+  padding:right
+
+  
 }
 
 .triple-column h3{
-display: flex;
-justify-content: space-between;
-gap: 25px;
-text-align: center;
-border: #725697;
-margin:45px;
-
 }
+
+
 
 .prototype-column{
 text-align: center;
