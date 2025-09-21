@@ -670,8 +670,8 @@ margin-left: 615px;
   justify-content:space-between;
   align-items: flex-start;
   gap: 30px;
-  
 }
+
 .overviewtext-two{
 padding:0 25px; 
 margin: 0;
@@ -681,9 +681,9 @@ font-size: 25px;
 font-family: 'Times New Roman', Times, serif;}
 
 .overviewtext-two b{
-    
 font-size: 35px;
-font-family: 'Times New Roman', Times, serif;}
+font-family: 'Times New Roman', Times, serif;
+}
 
 .projectphoto-two{ 
         flex-shrink:0;
@@ -737,6 +737,7 @@ border: #725697;
     color: #ffffff;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .design-box-two{
@@ -766,12 +767,11 @@ padding-top: 15px;
 }
 
 .materials-column{
-
 justify-content: space-between;
 margin: 15px;
 border: 5.5px solid #725697;
 padding: 15px;
-width: 578px;
+width: 495px;
 height: 685px;
 border-radius: 15px;
 margin: 15px;
@@ -785,22 +785,27 @@ background-color: #725697;
 border-bottom-left-radius: 15px;
 border-top-left-radius: 15px;
 text-align: center;
-width: 590px;
-height: 55px;
-padding-top: 15px;  
-margin: 15px;
-}
-.materials-column h4{
-border: 3px solid #725697;
-background-color: #725697;
-border-bottom-left-radius: 15px;
-border-top-left-radius: 15px;
-text-align: center;
-width: 590px;
+width: 493px;
 height: 55px;
 padding-top: 15px;  
 margin: 15px;
 
+}
+
+.materials-column h4{
+border: 3px solid #725697;
+background-color: #725697;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+text-align: center;
+width: 105%;
+height: 85px;
+padding-top: 18px;
+margin-top: 38px; 
+color:white;
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+box-sizing: border-box;   
 }
 
 .materials-column b{
@@ -809,6 +814,9 @@ font-family: 'Times New Roman', Times, serif;
 margin: 15px;
 }
 
+.results {
+    margin-top: 101px;
+}
 
 
 /*take out later*/
