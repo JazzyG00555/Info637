@@ -651,6 +651,183 @@ margin-right: 15px;
 margin-left: 615px;
 }
 
+
+
+
+/*Specific Animation Portfolio Project Pages*/
+
+
+.first-box-container-versiontwo {
+        background-color: #c1addc;
+        padding: 12px;
+        margin-top: 75px;
+        border-radius: 15px;
+        margin: 6px;
+    }
+
+.split-columns-two{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  gap: 30px;
+  
+}
+.overviewtext-two{
+padding:0 25px; 
+margin: 0;
+flex:1;
+max-width: 600px; 
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;}
+
+.overviewtext-two b{
+    
+font-size: 35px;
+font-family: 'Times New Roman', Times, serif;}
+
+.projectphoto-two{ 
+        flex-shrink:0;
+        max-width:415px;
+         margin: 15px;
+        margin-right: 15px;       
+         }
+
+.projectphoto-two img{ 
+        max-width:95%;
+        height:auto;
+        display: block;  
+         }              
+
+.info-box-container-two {
+        background-color: #725697;
+        padding: 15px;
+        margin-top: 75px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius:15px;
+        margin-top: -89px;
+        margin-right: 21.2px;
+       }
+
+       .info-box-container-two b {
+       color: #ffffff;
+       width: 349px;
+       height: 95px;
+       font-family: 'Times New Roman', Times, serif;
+       }
+
+
+       .info-box-container-two p {
+       color: #e0dae9;
+       font-family: 'Times New Roman', Times, serif;
+       }
+
+.h2-elements-two{
+    padding-top: 55px;
+}
+
+.triple-column-two{
+display: flex;
+justify-content: space-between;
+position: relative;
+gap: 25px;
+border: #725697;
+}
+
+.triple-column-two h3{ 
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.design-box-two{
+  border: 5.5px solid #725697;
+  border-radius: 15px;
+  padding: 15px;
+  width: 278px;
+  height: 215px;
+  background-color: #ffffff;
+  margin: 15px;
+  padding-bottom: 65px;
+}
+
+.design-box-two h3{
+border: 3px solid #725697;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+text-align: center;
+background-color: #725697;
+width: 290px;
+height: 55px;
+padding-top: 15px;  
+}
+
+.title-spacing-two{
+    padding-top: 35px;
+}
+
+.materials-column{
+justify-content: space-between;
+margin: 15px;
+}
+
+
+
+
+
+/*take out later*/
+.prototype{
+justify-content: space-between;
+gap: 45px;
+text-align: center;
+.prototype img
+    width: 100%;
+    height: auto; 
+   display: right;}
+
+
+
+
+   
+/*Slider Stuff to do later*/
+
+.photo-gallery-slider{
+
+ position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+.slides{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img{
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
   /*Responsive CSS*/
        
         @media screen and (max-width: 768px) {
