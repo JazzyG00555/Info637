@@ -723,6 +723,7 @@ font-family: 'Times New Roman', Times, serif;
 
 .h2-elements-two{
     padding-top: 55px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .triple-column-two{
@@ -750,6 +751,14 @@ border: #725697;
   margin: 15px;
   padding-bottom: 65px;
 }
+
+.triple-column-two img {
+
+width:35%;
+height:auto
+
+}
+
 
 .design-box-two h3{
 border: 3px solid #725697;
@@ -806,7 +815,6 @@ color:white;
 font-size: 18px;
 font-family: 'Times New Roman', Times, serif;
 box-sizing: border-box; 
-  
 
 }
 
@@ -820,27 +828,39 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 
-/*take out later*/
-.prototype{
-justify-content: space-between;
-gap: 45px;
-text-align: center;
-.prototype img
-    width: 100%;
-    height: auto; 
-   display: right;}
 
 
 
 
-   
-/*Slider Stuff to do later*/
+.design-box-festival-layout{
+  padding: 15px;
+  width: 588px;
+  height: 15px;
+  
+  margin: 15px;
+  padding-bottom: 65px;
+}
 
+.festival-border{
+    border: 5.5px solid #725697;
+  border-radius: 15px;
+
+  width: 1878px;
+  height: 215px;
+  margin: 15px;
+}
+
+
+
+
+
+
+/*slider*/
 .photo-gallery-slider{
 
  position: relative;
   max-width: 800px;
-  margin: auto;
+  margin: 15px;
   overflow: hidden;
   border-radius: 15px;
 
@@ -873,6 +893,25 @@ text-align: center;
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+
+
+
+
+
+
+
+
+
+/*take out later*/
+.prototype{
+justify-content: space-between;
+gap: 45px;
+text-align: center;
+.prototype img
+    width: 100%;
+    height: auto; 
+   display: right;}
 
   /*Responsive CSS*/
        
