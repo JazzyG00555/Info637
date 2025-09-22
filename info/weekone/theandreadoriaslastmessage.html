@@ -40,10 +40,14 @@
 
      
 
- <p><b>Credits:</p></b>
+ <p><b>Credits</p></b>
 
-<p>Narrator Rosa Boiardi--Supervisor Shira Avni--Composer Sam Kadoura--Sound Mixer Tom Horlor</p>
- 
+<ul>
+    <li>Narration by Rosa Boiardi</li>
+     <li>Supervion by Shira Avni </li>
+     <li>Music composition by Sam Kadoura</li>
+      <li>Sound Mix by Tom Horlor</li>
+ </ul>
 
 </div>
 
@@ -207,7 +211,7 @@
  <div class="triple-column-two">
 </div>
 
-<div class=".photo-gallery-slider">
+<div class="photo-gallery-slider">
   <div class="slides">
 
     <img src="./portfolioimages/stillone.jpg" alt="Hall of Portraits">
@@ -232,7 +236,7 @@
   let index = 0;
 
   function showSlide(i) {
-    index = (i + images.length) % images.length; // loopy
+    index = (i + images.length) % images.length; 
     slides.style.transform = `translateX(${-index * 100}%)`;
   }
 
