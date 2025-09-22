@@ -490,16 +490,6 @@ overflow: hidden;
 
 /*Specific Ux Projects Portfolio Project Page*/
 
-
-
-/*take out title margins h1 and h2*/
- .titles-margins h1 {margin: 15px;
-    font-size: 42px;
-font-family: 'Times New Roman', Times, serif;}
-
-.titles-margins h2{ font-size: 35px;
-font-family: 'Times New Roman', Times, serif;}
-
 .split-columns{
   display: flex;
   justify-content:space-between;
@@ -626,8 +616,8 @@ text-align: center;
 border: 5.5px solid #725697;
   border-radius: 15px;
   padding: 15px;
-  width: 1118px;
-  height: 185px;
+  width: 518px;
+  height: 285px;
   background-color: #ffffff;
   margin: 15px;
   padding-bottom: 15px;
@@ -648,7 +638,7 @@ height: 38px;
 padding-top: 15px; 
 display:center;
 margin-right: 15px;
-margin-left: 615px;
+margin-left: 15px;
 }
 
 
@@ -862,14 +852,16 @@ font-family: 'Times New Roman', Times, serif;
 
 /*slider*/
 .photo-gallery-slider{
-
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .slides{
 display: flex;
 transition: transform 0.8s ease-in-out;
-width: 100%
+width: 100%;
+
   
 }
 
@@ -880,7 +872,9 @@ flex-shrink: 0;
 margin-left: 0px;
 margin-right: 0px;
 justify-content:center;
-align-items:center
+align-items:center;
+padding-left: 120px;
+padding-right: 300px;
 }
 
 .prev, .next {
