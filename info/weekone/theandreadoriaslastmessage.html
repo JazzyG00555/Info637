@@ -175,7 +175,7 @@
 
 <div class="triple-column-two">
 
-<div class="festival-border">
+
 <div class="design-box-festival-layout">
 <ul>
 <li>Meet Film Festival <i>(Finalist)</i></li>
@@ -194,7 +194,7 @@
 </div>
 </div>
 
-</div>
+
 
 
 
@@ -232,8 +232,8 @@
   let index = 0;
 
   function showSlide(i) {
-    index = (i + images.length) % images.length; // loop around
-    slides.style.transform = `translateX(${-index * 100}%)`;
+    index = (i + images.length) % images.length; // loopy
+    slides.style.transform = `translateX(${-index * 65}%)`;
   }
 
   prev.addEventListener("click", () => showSlide(index - 1));
