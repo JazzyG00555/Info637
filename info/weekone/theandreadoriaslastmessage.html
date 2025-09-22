@@ -210,11 +210,11 @@
 <div class=".photo-gallery-slider">
   <div class="slides">
 
-    <img src="./portfolioimages/stillone.jpg" alt="">
-    <img src="./portfolioimages/stilltwo.jpg" alt="">
-    <img src="./portfolioimages/stillthree.jpg" alt="">
-    <img src="./portfolioimages/stillfour.jpg" alt="">
-    <img src="./portfolioimages/stillfive.jpg" alt="">
+    <img src="./portfolioimages/stillone.jpg" alt="Hall of Portraits">
+    <img src="./portfolioimages/stilltwo.jpg" alt="The Andrea Doria Ship">
+    <img src="./portfolioimages/stillthree.jpg" alt="The Andrea Doria Ship Sinking">
+    <img src="./portfolioimages/stillfour.jpg" alt="Rosa and her Husband Sitting Together">
+    <img src="./portfolioimages/stillfive.jpg" alt="Close-up of Rosa Amazed">
 
 
 </div>
@@ -233,7 +233,7 @@
 
   function showSlide(i) {
     index = (i + images.length) % images.length; // loopy
-    slides.style.transform = `translateX(${-index * 65}%)`;
+    slides.style.transform = `translateX(${-index * 100}%)`;
   }
 
   prev.addEventListener("click", () => showSlide(index - 1));
