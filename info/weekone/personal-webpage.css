@@ -17,6 +17,19 @@
             padding-left: 82px;
         }
 
+        .first-box-container-aboutpage {
+        background-color: #c1addc;
+        padding: 12px;
+        margin-top: 75px;
+        border-radius: 15px;
+        border-bottom-left-radius: 15px;
+                border-top-left-radius: 15px;
+        margin: 6px;
+      
+        width: 598px;
+        height: auto;
+    }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -41,12 +54,12 @@
 
          .top-half img{ 
             color: #ffffff; 
-            background-color: #725697;
-            padding-top: 0px }
-
+            padding-top: 0px; }
+          
         .top-container {
             /* notice this is as close to half giving a bit of space between copy and photo*/
-            width: 48%;
+            width: 38%;
+            
            
         }
 
@@ -65,7 +78,7 @@
             /*this translates to make the photo the size of the container and adjust the height accordingly*/
            
             
-            max-width: 72%;
+            max-width: 75%;
             height: auto;
              
         }
@@ -693,7 +706,7 @@ font-family: 'Times New Roman', Times, serif;}
 
 .projectphoto-two img{ 
         max-width:95%;
-        height:auto;
+        height: auto;
         display: block;  
          }              
 
@@ -827,8 +840,6 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 
-
-
 .design-box-festival-layout{
   padding: 15px;
   width: 588px;
@@ -850,6 +861,10 @@ font-family: 'Times New Roman', Times, serif;
 
 
 
+
+
+
+
 /*slider*/
 .photo-gallery-slider{
 display: flex;
@@ -861,7 +876,6 @@ align-items: center;
 display: flex;
 transition: transform 0.8s ease-in-out;
 width: 100%;
-
   
 }
 
