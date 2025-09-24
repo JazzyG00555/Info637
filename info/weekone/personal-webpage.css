@@ -47,9 +47,7 @@
             border-radius: 15px; 
             color: #ffffff; 
             background-color: #725697;
-             border: 15px solid #725697; 
-            
-          
+             border: 15px solid #725697;          
 }
 
          .top-half img{ 
@@ -184,29 +182,29 @@
 
    /*Description*/
 
-.double-columns{ display: flex;
-   gap: 5px;
-  justify-content: space-between;
+.double-columns{ 
+display: flex;
+gap: 5px;
+justify-content: space-between;
 align-items: center;   } 
 
 .description{ 
-   flex: 1;
-   font-size: 28px;
-   margin-right: 35px;
+flex: 1;
+font-size: 28px;
+margin-right: 35px;
 margin: 35px;
 font-family: 'Times New Roman', Times, serif;
  }
 
 .description-rose{
-    flex-shrink: 0; 
-    max-width: 350px;
-    height: auto;
-    
+flex-shrink: 0; 
+max-width: 350px;
+height: auto;    
 }
 
 .description-rose img {
-  width: 100%;          
-  height: auto;
+width: 100%;          
+height: auto;
 display: block;
 margin-top: 15px;
 margin-bottom: 15px;
@@ -217,13 +215,13 @@ margin-left: 45px;
 
   /*Tabs Section*/
 
-.tabs {
-    
+.tabs {    
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     width: 100%
 }
+
   .tab {
     flex: 1;
     padding: 20px 0;
@@ -240,9 +238,11 @@ margin-left: 45px;
     border-bottom: #e2e1e1;
     font-family: 'Times New Roman', Times, serif;
 }
+
   .tab:hover {
     background-color: #df5fcc;
 }
+
   .tab.active {
     background-color: #725697;
     color: rgb(255, 255, 255);
@@ -624,9 +624,47 @@ text-align: center;
    
 }
 
+.companalysis-columns{
+
+border: 5.5px solid #c1addc;
+  border-radius: 15px;
+  padding: 12px;
+  width: 518px;
+  height: 283px;
+  background-color: #c1addc;
+  margin: 15px;
+  padding-bottom: 15px;
+
+}
+
+.application-text {
+font-size: 25px;  
+font-family: 'Times New Roman', Times, serif;
+}
+
+.flophoto{ 
+  display:flex;
+  width:48%; 
+  height: auto;
+  margin-left: 295px;
+  margin-top: -213px;
+  
+}
+
+.cluephoto{ 
+  display:flex;
+  width:48%; 
+  height: auto;
+  margin-left: 285px;
+  margin-top: -185px;
+   
+}
+
+
+
 .reflections-columns{
 
-border: 5.5px solid #725697;
+  border: 5.5px solid #725697;
   border-radius: 15px;
   padding: 15px;
   width: 518px;
