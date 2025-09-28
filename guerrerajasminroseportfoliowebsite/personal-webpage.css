@@ -1,4 +1,3 @@
-
 /*Main Structure*/
 
     nav {
@@ -120,7 +119,7 @@
 
      .split-columns-aboutpage {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: flex-start;
         gap: 30px; 
       }
@@ -131,7 +130,7 @@
         font-size: 25px;
         max-width: 600px;  
         margin: 15px;
-        padding:0 25px;        
+        padding: 0 25px;        
       }
 
      .overviewtext-aboutpage b {
@@ -178,8 +177,6 @@
         gap: 230px;    
         padding-top: 15px;
     }
-
-    
 
     .font-size {
         font-family: 'Times New Roman', Times, serif;
@@ -283,33 +280,6 @@
                   gap: 80px; 
                   padding-top: 5%;
               }
-
-             .image-item {
-                 position: relative;
-                 overflow: hidden;
-              }
-          
-             .image-item img {
-                 display: block; 
-                 object-fit: cover;
-                 object-position: top;
-                 width: 100%;
-                 height: 200px;
-                 border-radius: 8px;         
-              }
-
-             .image-item img:hover {
-                 opacity: 20%;
-              }
-    
-             .image-item p {
-                position: absolute;
-                top: 40%;
-                left: 10%;
-                font-size: xx-large;
-                color: #333;
-                opacity: 0; 
-             }
 
             .image-item-boiler-plate {
                 display: flex;
@@ -507,7 +477,7 @@
                   opacity: 1;
                 }
 
-/*Specific Ux Projects Portfolio Project Page*/
+/*Specific UX Project Detailed Portfolio Page*/
 
     /*Apple Health Menstrual Health Application Portfolio Project Page*/
 
@@ -559,7 +529,7 @@
             margin-right: 21.2px;
             padding: 15px;
             border-bottom-left-radius: 15px;
-            border-bottom-right-radius:15px;
+            border-bottom-right-radius: 15px;
             background-color: #725697;
         }
 
@@ -620,23 +590,6 @@
            padding-top: 35px;
         }
 
-        .prototype-column-menstrual {
-           justify-content: space-between;
-           margin: 15px;
-        }
-
-        .prototype-menstrual {
-           justify-content: space-between;
-           text-align: center;
-           gap: 45px;
-        }
-
-        .prototype-menstrual img { 
-           
-           width: 100%;
-           height: auto; 
-        }
-
         .companalysis-columns-menstrual {
            width: 518px;
            height: 283px;
@@ -654,19 +607,35 @@
         }
 
         .flophoto { 
-           display:flex;
-           width:48%; 
+           display: flex;
+           width: 48%; 
            height: auto;
            margin-top: -213px;
            margin-left: 295px;
         }
 
         .cluephoto { 
-           display:flex;
-           width:48%; 
+           display: flex;
+           width: 48%; 
            height: auto;
            margin-left: 285px;
            margin-top: -185px;   
+        }
+
+        .prototype-menstrual {
+           justify-content: space-between;
+           text-align: center;
+           gap: 45px;
+        }
+
+        .prototype-menstrual img { 
+           width: 100%;
+           height: auto; 
+        }
+
+        .featuredev-column-menstrual {
+           justify-content: space-between;
+           margin: 15px;
         }
 
         .reflections-columns-menstrual {
@@ -710,13 +679,13 @@
 
         .split-columns-amazon {
            display: flex;
-           justify-content:space-between;
+           justify-content: space-between;
            align-items: flex-start;
            gap: 30px;
           }
 
         .overviewtext-amazon {
-           flex:1;
+           flex: 1;
            font-family: 'Times New Roman', Times, serif;
            font-size: 25px;
            max-width: 600px; 
@@ -745,7 +714,7 @@
 
         .info-box-container-amazon {
            border-bottom-left-radius: 15px;
-           border-bottom-right-radius:15px;
+           border-bottom-right-radius: 15px;
            background-color: #725697;
            margin-top: 0px;
            margin-right: 21.2px;
@@ -852,8 +821,8 @@
        }
 
        .duolingophoto { 
-           display:flex;
-           width:64%; 
+           display: flex;
+           width: 64%; 
            height: auto;
            margin-left: 237px;
            margin-top: -137px;
@@ -870,7 +839,7 @@
            height: auto;    
        }
 
-      .prototype-column-amazon {
+      .featuredev-column-amazon {
            justify-content: space-between;
            margin: 15px;
        }
@@ -916,7 +885,7 @@
 
        .split-columns-marge {
            display: flex;
-           justify-content:space-between;
+           justify-content: space-between;
            align-items: flex-start;
            gap: 30px;
        }
@@ -941,20 +910,19 @@
            margin: 15px;
            margin-right: 15px;       
            margin-bottom: 15px;
-
         }
 
-       .projectphoto-marge img{ 
+       .projectphoto-marge img { 
            display: block;  
-           max-width:95%;
-           height:auto;
+           max-width: 95%;
+           height: auto;
         }              
 
        .info-box-container-marge { 
            margin-right: 21.2px;
            padding: 15px;
            border-bottom-left-radius: 15px;
-           border-bottom-right-radius:15px;
+           border-bottom-right-radius: 15px;
            background-color: #725697;
        
        }
@@ -971,11 +939,11 @@
            color: #e0dae9;    
        }
 
-      .h2-elements-marge{
+      .h2-elements-marge {
            padding-top: 55px;
        }
 
-      .triple-column-marge{
+      .triple-column-marge {
          display: flex;
          position: relative;
          justify-content: space-between;
@@ -983,7 +951,7 @@
          border: #725697;
        }
 
-      .triple-column-marge h3{ 
+      .triple-column-marge h3 { 
          font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          color: #ffffff;
@@ -1021,12 +989,12 @@
          gap: 45px;
       }
 
-      .website-pages-marge img{ 
+      .website-pages-marge img { 
          width: 100%;
          height: auto;  
       }
 
-      .reflections-columns-marge{
+      .reflections-columns-marge {
          width: 518px;
          height: 215px;
          margin: 15px;
@@ -1037,7 +1005,7 @@
          padding-bottom: 15px;
       }
 
-       .reflections-columns-marge h3{
+       .reflections-columns-marge h3 {
          text-align: center;
          font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
@@ -1053,7 +1021,7 @@
          background-color: #725697;
         }
 
-/*Specific Animation Portfolio Project Pages*/
+/*Specific Animation Portfolio Detailed Project Pages*/
  
       /*Backjump Project Page*/
 
@@ -1065,14 +1033,14 @@
            background-color: #c1addc;
         }
 
-      .split-columns-bj{
+      .split-columns-bj {
            display: flex;
            justify-content:space-between;
            align-items: flex-start;
            gap: 30px;
         }
 
-      .overviewtext-bj{
+      .overviewtext-bj {
            flex: 1;
            font-family: 'Times New Roman', Times, serif;  
            font-size: 25px;
@@ -1081,12 +1049,12 @@
            padding:0 25px; 
         }
 
-      .overviewtext-bj b{
+      .overviewtext-bj b {
            font-family: 'Times New Roman', Times, serif;
            font-size: 35px;
         }
         
-      .overviewtext-bj ul{
+      .overviewtext-bj ul {
          flex: 1;
          font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
@@ -1095,14 +1063,14 @@
          padding:0 25px; 
         }
 
-      .projectphoto-bj{ 
+      .projectphoto-bj { 
          flex-shrink: 0;
          max-width:415px;
          margin: 15px;
          margin-right: 15px;       
       }
 
-     .projectphoto-bj img{ 
+     .projectphoto-bj img { 
          display: block;  
          max-width:95%;
          height: auto;
@@ -1206,7 +1174,7 @@
 
     .materials-column-bj h4 {
        box-sizing: border-box; 
-       align-items:center;
+       align-items: center;
        text-align: center;
        font-family: 'Times New Roman', Times, serif;
        font-size: 18px;
@@ -1220,7 +1188,7 @@
        background-color: #725697;
     }
 
-    .materials-columnbj b {
+    .materials-column-bj b {
        font-family: 'Times New Roman', Times, serif;
        font-size: 18px;
     }
@@ -1258,19 +1226,19 @@
 
      .split-columns-ad {
          display: flex;
-         justify-content:space-between;
+         justify-content: space-between;
          align-items: flex-start;
          gap: 30px;
       }
 
 
      .overviewtext-ad {
-         flex:1;
+         flex: 1;
          font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
          max-width: 600px; 
          margin: 15px;
-         padding:0 25px; 
+         padding: 0 25px; 
       }
 
      .overviewtext-ad b{
@@ -1279,12 +1247,12 @@
       }
 
     .overviewtext-ad ul{
-         flex:1;
+         flex: 1;
          font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
          max-width: 600px; 
          margin: 15px;
-         padding:0 25px; 
+         padding: 0 25px; 
     }
 
     .projectphoto-ad{ 
@@ -1296,20 +1264,19 @@
 
     .projectphoto-ad img{ 
          display: block; 
-         max-width:95%;
+         max-width: 95%;
          height: auto;
      }              
 
     .info-box-container-ad {
-         background-color: #725697;
-         padding: 15px;
-         margin-top: 75px;
-         border-bottom-left-radius: 15px;
-         border-bottom-right-radius:15px;
+         position: relative;
+         z-index: 55;
          margin-top: -89px;
          margin-right: 21.2px;
-         z-index: 55;
-         position: relative;
+         padding: 15px;
+         border-bottom-left-radius: 15px;
+         border-bottom-right-radius: 15px;
+         background-color: #725697;
     }
 
     .info-box-container-ad b {
@@ -1324,7 +1291,7 @@
          color: #e0dae9;
     }
 
-    .h2-elements-ad{
+    .h2-elements-ad {
          font-family: 'Times New Roman', Times, serif;
          padding-top: 55px;      
     }
@@ -1344,8 +1311,8 @@
     }
 
     .triple-column-ad img {
-        width:35%;
-        height:auto
+        width: 35%;
+        height: auto
     }
 
     .design-box-ad {
@@ -1411,8 +1378,8 @@
        padding: 15px;
        padding-bottom: 45px;
        border: 3px solid #725697;
-       background-color: #725697;
        color: white;
+       background-color: #725697;  
     }
 
     .materials-column-ad b {
@@ -1456,7 +1423,7 @@
 
    .split-columns-ear {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: flex-start;
         gap: 30px;
    }
@@ -1482,7 +1449,7 @@
         font-size: 25px;
         max-width: 600px; 
         margin: 15px;
-        padding:0 25px; 
+        padding: 0 25px; 
      }
 
    .projectphoto-ear { 
@@ -1490,7 +1457,7 @@
         max-width: 415px;
         margin: 15px;
         margin-right: 15px;       
-         }
+    }
 
    .projectphoto-ear img { 
         display: block;  
@@ -1622,7 +1589,7 @@
         margin-top: 137px;
      }
 
-     .design-box-festival-layout-ear{
+     .design-box-festival-layout-ear {
         width: 588px;
         height: 15px;
         margin: 15px;
@@ -1637,7 +1604,7 @@
         margin-left: 118px;
      }
 
-     .image-stills-ear img{ 
+     .image-stills-ear img { 
         justify-content: space-between;
         width: 100%; 
         height: auto;
@@ -1646,9 +1613,19 @@
 
 
 
+
+
+
+
 /*Responsive CSS*/
-       
+       /*I tried my best, but this was my first time ever trying Responsive CSS. 
+       I still want to make changes and make this part better in the future, 
+       I simply ran out of time to do so.*/   
+
+/*Main Structure*/
+
 @media screen and (max-width: 768px) {
+
  .top-container,
  .bottom-container {
     width: 100%;
@@ -1702,7 +1679,7 @@
 }
 
 
-/* Menstrual Page Responsive CSS*/
+/*Menstrual Page Responsive CSS*/
 
 @media screen and (max-width: 768px) {
 
@@ -1713,7 +1690,7 @@
   }
 
   .projectphoto-menstrual img {
-    max-width: 92.5%;
+    max-width: 92%;
   }
 
   .triple-column-menstrual {
@@ -1725,18 +1702,6 @@
   .triple-column-menstrual > div {
     flex: 1 1 30%;
     min-width: 280px;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;
-  }
-
-  p, li {
-    font-size: 15.2px;
   }
 
   .triple-column-menstrual {
@@ -1794,7 +1759,7 @@
 
 
 
-/* Amazon Page Responsive CSS*/
+/*Amazon Page Responsive CSS*/
 
 @media screen and (max-width: 768px) {
 
@@ -1805,7 +1770,7 @@
   }
 
   .projectphoto-amazon img {
-    max-width: 92.5%;
+    max-width: 92%;
   }
 
   .triple-column-amazon {
@@ -1830,19 +1795,6 @@
   .triple-column-blackfont> div {
     flex: 1 1 30%;
     min-width: 280px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;
- 
-  }
-
-  p, li {
-    font-size: 15.2px;
   }
 
   .companalysis-columns-amazon img
@@ -1893,7 +1845,7 @@
 }
 
 
-/* Marge Mania Page Responsive CSS*/
+/*Marge Mania Page Responsive CSS*/
 
  @media screen and (max-width: 768px) {
 
@@ -1904,7 +1856,7 @@
   }
 
   .projectphoto-marge img{
-     max-width: 93%;
+     max-width: 92%;
   }
 
   .website-pages-marge img {
@@ -1922,19 +1874,6 @@
   .triple-column-marge  > div {
     flex: 1 1 30%;
     min-width: 280px;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;
- 
-  }
-
-  p, li {
-    font-size: 15.2px;
   }
 
   .reflections-columns-marge  {
@@ -1962,7 +1901,8 @@
  }
 
 
-/* Backjump Page Responsive CSS*/
+
+/*Backjump Page Responsive CSS*/
 
  @media screen and (max-width: 768px) {
 
@@ -1988,19 +1928,6 @@
     flex: 1 1 30%;
     min-width: 280px;
   }
-  
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;
- 
-  }
-
-  p, li {
-    font-size: 15.2px;
-  }
 
   .image-stills-bj img {
     max-width: 100%;
@@ -2009,7 +1936,7 @@
 }
 
 
-/* Andrea Doria Page Responsive CSS*/
+/*Andrea Doria Page Responsive CSS*/
 
  @media screen and (max-width: 768px) {
 
@@ -2038,25 +1965,13 @@
     flex: 1 1 30%;
     min-width: 280px;
   }
-  
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;
- 
-  }
-
-  p, li {
-    font-size: 15.2px;;
-  }
 
   .image-stills-ad img {
     max-width: 100%;
     margin-right: 125px;  
  }
 }
+
 
 /*Ear-itation Page Responsive CSS*/
 
@@ -2087,19 +2002,6 @@
   .triple-column-ear  > div {
     flex: 1 1 30%;
     min-width: 280px;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 17.6px;;
- 
-  }
-
-  p, li {
-    font-size: 15.2px;
   }
 
   .image-stills-ear img {
