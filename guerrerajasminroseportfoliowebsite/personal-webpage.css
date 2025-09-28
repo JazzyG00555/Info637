@@ -1,0 +1,2120 @@
+
+/*Main Structure*/
+
+    nav {
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: #333;
+          }
+
+          
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6;
+        margin: 28px;
+        padding-left: 82px;
+    }
+
+    img {
+        max-width: 75%;
+        height: auto;           
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;     
+    }
+
+    h2 { 
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 0px;  
+    }
+
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;     
+    }
+
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+        
+    ul {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        margin-left: 0px;
+        padding-left: 10px;     
+    }
+
+    ul.dashed {
+        font-family: 'Times New Roman', Times, serif;
+        list-style-type: none;
+    }
+
+    ul.dashed > li {
+        text-indent: -5px;
+    }
+
+    ul.dashed > li:before {
+        content: "-";
+        text-indent: -5px;
+    }
+
+    .container { 
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .top-half {  
+        display: flex;  
+        justify-content: space-between;
+        margin-bottom: 40px;            
+    }
+
+    .top-half h1 { 
+        margin-top: 15px;
+        border-radius: 15px; 
+        border: 15px solid #725697;  
+        color: #ffffff; 
+        background-color: #725697;            
+     }
+
+    .top-half img { 
+        padding-top: 15px; 
+        color: #ffffff;      
+    }
+          
+    .top-container {
+        width: 38%;  
+    }
+
+
+/*Footer*/
+
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 60px; 
+    padding: 12px 0;
+    color: #ffffff;      
+    background-color: #725697;
+  }
+
+
+/*About Page Structure*/
+
+     .first-box-container-aboutpage {
+        margin: 6px;
+        margin-top: 55px;
+         margin-bottom: 42px;
+        padding: 12px;
+        border-radius: 15px;
+        background-color: #c1addc; 
+      }
+
+     .split-columns-aboutpage {
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        gap: 30px; 
+      }
+
+     .overviewtext-aboutpage {
+        flex: 1;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        max-width: 600px;  
+        margin: 15px;
+        padding:0 25px;        
+      }
+
+     .overviewtext-aboutpage b {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        padding: 15px;
+        border-radius: 15px;;
+        border: #725697;
+        color: white;
+        background-color: #725697;        
+      }
+
+     .overviewtext-aboutpage ul {
+        flex: 1;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        max-width: 600px; 
+        margin: 15px;
+        padding: 0 25px; 
+      }
+
+     .projectphoto-aboutpage { 
+        flex-shrink: 0;
+        max-width: 415px;
+        margin: 15px;
+        margin-right: 15px;       
+      }
+
+     .projectphoto-aboutpage img { 
+        display: block;  
+        max-width: 95%;
+        height: auto;
+      }  
+
+    .bottom-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .two-columns {
+        display: flex;
+        justify-content: flex-start;  
+        margin-left: 25px;
+        gap: 230px;    
+        padding-top: 15px;
+    }
+
+    
+
+    .font-size {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19.5px;  
+    }
+
+    .paragraph-font-size { 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+
+/*Portfolio Gallery Pages*/
+
+        /*Description Box*/
+
+          .first-box-container-description {
+            border-radius: 15px;
+            margin: 6px;
+            margin-top: 75px;
+            margin-bottom: 42px;
+            padding: 12px;
+            background-color: #c1addc;
+          }
+
+          .double-columns { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            gap: 5px;
+          } 
+
+          .description{ 
+            flex: 1;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+            margin: 35px;
+            margin-right: 35px;
+          }
+
+          .description-rose{
+            flex-shrink: 0; 
+            max-width: 350px;
+            height: auto;    
+          }
+
+          .description-rose img {
+            display: block;
+            width: 100%;          
+            height: auto;
+            margin-top: 15px;
+            margin-left: 45px;
+            margin-bottom: 15px; 
+          }
+
+
+        /*Tabs Section*/
+
+        .tabs {    
+           display: flex;
+           justify-content: space-between;
+           width: 100%;
+           margin-top: 20px;  
+        }
+
+       .tab {
+          flex: 1;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px; 
+          text-decoration: none;
+          margin: 0;
+          padding: 20px 0;
+          border: 5px solid #ffffff;
+          border-radius: 15px;
+          border-bottom: #e2e1e1;
+          color: #333;
+          background-color: #e2e1e1;
+          transition: background-color 0.3s;
+          text-align: center;
+          box-sizing: border-box;   
+        }
+
+       .tab:hover {
+          background-color: #df5fcc;
+       }
+
+       .tab.active {
+          color: rgb(255, 255, 255);
+          background-color: #725697;
+       }  
+
+       
+    /*Images and Grids*/
+
+          /*UX Projects Portfolio*/
+
+             .image-grid {
+                  display: grid;
+                  justify-content:center;
+                  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                  gap: 80px; 
+                  padding-top: 5%;
+              }
+
+             .image-item {
+                 position: relative;
+                 overflow: hidden;
+              }
+          
+             .image-item img {
+                 display: block; 
+                 object-fit: cover;
+                 object-position: top;
+                 width: 100%;
+                 height: 200px;
+                 border-radius: 8px;         
+              }
+
+             .image-item img:hover {
+                 opacity: 20%;
+              }
+    
+             .image-item p {
+                position: absolute;
+                top: 40%;
+                left: 10%;
+                font-size: xx-large;
+                color: #333;
+                opacity: 0; 
+             }
+
+            .image-item-boiler-plate {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                overflow: hidden;
+                background: #ffffff; 
+            }
+
+           .image-item-boiler-plate img { 
+                display: block; 
+                max-width: 90%;   
+                height: auto;
+                margin: 0 auto;           
+                object-fit: cover;      
+           }
+  
+          .image-item-boiler-plate p { 
+                display: block;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 35px;   
+                max-width: 90%;   
+                height: auto;
+                margin: 10px;
+                color: #000000; 
+           }
+
+
+/*Overlay of UX Project Portfolio Pages*/
+  
+          /*The Container*/
+
+               .image-overlay {
+                   position: relative;
+                   overflow: hidden;
+                   width: 550px;         
+                   height: 520px;     
+                } 
+       
+          /*The Image*/
+
+               .image-overlay img {
+                   object-fit: cover;     
+                   width: 550px;         
+                   height: 520px; 
+                   transition: transform 0.5s ease;
+                }
+
+          /*Transparent Overlay */
+              
+               .overlay {
+                   display: flex;     
+                   position: absolute;       
+                   justify-content: center;
+                   align-items: center;
+                   top: 0;
+                   left: 0;
+                   width: 326px;     
+                   height: 550px; 
+                   margin-left: 14px; 
+                   padding-left: 195px;
+                   background: #c1addc;
+                   opacity: 0;
+                   transition: opacity 0.8s ease;
+                }
+
+          /*Centered Text*/
+
+               .overlay-text {
+                   position: absolute;
+                   text-align: center;
+                   top: 50%;
+                   left: 50%;
+                   font-family: 'Times New Roman', Times, serif;
+                   font-weight: bold;   
+                   opacity: 0;
+                   transition: opacity 0.5s ease;
+                   transform: translate(-50%, -50%);
+                   padding: 20px;
+                }
+
+          /*Hover Effects*/
+
+               .image-overlay:hover img {
+                   transform: scale(1.05);
+                }
+ 
+               .image-overlay:hover .overlay {
+                   opacity: 1;
+                }
+
+               .image-overlay:hover .overlay-text {
+                   opacity: 1;
+                }
+
+
+     /*Animated Films Portfolio*/
+
+        .image-grid-two {
+           display: grid;
+           justify-content: center;
+           grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+           gap: 80px; 
+           padding-top: 5%;
+        }
+        
+        .image-item-boiler-plate-two {  
+            display: flex;
+            justify-content: center;  
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+            background: #ffffff;       
+        }
+
+        .image-item-boiler-plate-two img { 
+            display: block;
+            max-width: 90%;   
+            height: auto;
+            margin: 0 auto;   
+            object-fit: cover;           
+        }
+
+        .image-item-boiler-plate-two p { 
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+            max-width: 90%;   
+            height: auto;
+            margin: 10px;
+            font-size: 35px;
+            color: #000000; 
+         }
+
+
+/*Overlay Options of Animated Films Portfolio Pages*/
+
+          /*The Container*/
+                .image-overlay-two {
+                     position: relative;
+                     overflow: hidden;
+                     width: 535px;         
+                     height: 555px;  
+                } 
+
+           /*The Image*/
+               .image-overlay-two img {
+                   object-fit: cover;   
+                   width: 535px;         
+                   height: 555px;    
+                   transition: transform 0.5s ease;  
+                }
+
+           /*Transparent Overlay */
+                .overlay-two {
+                   display: flex;
+                   position: absolute;
+                   justify-content: center;
+                   align-items: center;
+                   top: 0;
+                   left: 0;
+                   width: 312px;         
+                   height: 555px;
+                   margin-left: 14px; 
+                   padding-left: 195px;
+                   background: #c1addc;
+                   opacity: 0;
+                   transition: opacity 0.8s ease;  
+                }
+
+           /*Centered Text*/
+               .overlay-text-two {
+                   position: absolute;
+                   text-align: center;
+                   top: 50%;
+                   left: 50%;
+                   font-family: 'Times New Roman', Times, serif;
+                   font-weight: bold;  
+                   opacity: 0;
+                   transition: opacity 0.5s ease;
+                   transform: translate(-50%, -50%);
+                }
+
+           /*Hover Effects */
+                .image-overlay-two:hover img {
+                   transform: scale(1.05);
+                }
+
+                .image-overlay-two:hover .overlay-two {
+                   opacity: 1;
+                }
+
+                .image-overlay-two:hover .overlay-text-two {
+                  opacity: 1;
+                }
+
+/*Specific Ux Projects Portfolio Project Page*/
+
+    /*Apple Health Menstrual Health Application Portfolio Project Page*/
+
+        .first-box-container-menstrual {      
+            margin: 6px;
+            margin-top: 75px;
+            padding: 12px;
+            border-radius: 15px;
+            background-color: #c1addc;   
+        }
+        
+        .split-columns-menstrual {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px; 
+        }
+
+        .overviewtext-menstrual {
+            flex: 1;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            max-width: 600px; 
+            margin: 0;
+            padding: 0 25px; 
+        }
+
+        .overviewtext-menstrual b {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+
+        .projectphoto-menstrual{ 
+            flex-shrink: 0;
+            max-width: 415px;
+            margin: 15px;
+            margin-bottom: 15px;
+            margin-right: 15px;       
+         }
+
+        .projectphoto-menstrual img { 
+            display: block;  
+            max-width: 95%;
+            height: auto;
+         }              
+
+        .info-box-container-menstrual {
+            margin-top: 0px;
+            margin-right: 21.2px;
+            padding: 15px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius:15px;
+            background-color: #725697;
+        }
+
+       .info-box-container-menstrual b {
+            font-family: 'Times New Roman', Times, serif;
+            width: 349px;
+            height: 95px;
+            color: #ffffff;
+       }
+
+       .info-box-container-menstrual p {
+           font-family: 'Times New Roman', Times, serif;
+           color: #e0dae9;
+       }
+
+       .h2-elements-menstrual {
+           padding-top: 55px;
+       } 
+
+       .triple-column-menstrual {
+           display: grid;
+           position: relative;
+           justify-content: space-between;
+           grid-template-columns: repeat(3, 1fr);
+           gap: 25px;
+           border: #725697;
+        }
+
+        .triple-column-menstrual h3 { 
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px;
+           color: #ffffff;
+        }
+
+        .design-box-menstrual {
+           width: 278px;
+           height: 195px;
+           border: 5.5px solid #725697;
+           border-radius: 15px;
+           background-color: #ffffff;
+           margin: 15px;
+           padding: 15px;
+           padding-bottom: 65px;
+        }
+
+       .design-box-menstrual h3 {
+           text-align: center;
+           width: 290px;
+           height: 55px;
+           border: 3px solid #725697;
+           border-bottom-left-radius: 15px;
+           border-top-left-radius: 15px;
+           background-color: #725697;
+           padding-top: 15px;  
+        }
+
+        .title-spacing-menstrual {
+           padding-top: 35px;
+        }
+
+        .prototype-column-menstrual {
+           justify-content: space-between;
+           margin: 15px;
+        }
+
+        .prototype-menstrual {
+           justify-content: space-between;
+           text-align: center;
+           gap: 45px;
+        }
+
+        .prototype-menstrual img { 
+           display: right;
+           width: 100%;
+           height: auto; 
+        }
+
+        .companalysis-columns-menstrual {
+           width: 518px;
+           height: 283px;
+           border: 5.5px solid #c1addc;
+           border-radius: 15px;
+           background-color: #c1addc;
+           margin: 15px;
+           padding: 12px;
+           padding-bottom: 15px;
+        }
+
+        .application-text-menstrual {
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 25px;            
+        }
+
+        .flophoto { 
+           display:flex;
+           width:48%; 
+           height: auto;
+           margin-top: -213px;
+           margin-left: 295px;
+        }
+
+        .cluephoto { 
+           display:flex;
+           width:48%; 
+           height: auto;
+           margin-left: 285px;
+           margin-top: -185px;   
+        }
+
+        .reflections-columns-menstrual {
+           width: 518px;
+           height: 285px;
+           border: 5.5px solid #725697;
+           border-radius: 15px;
+           background-color: #ffffff;
+           margin: 15px;
+           padding: 15px;
+           padding-bottom: 15px;
+          }
+
+        .reflections-columns-menstrual h3 {
+           display: center;
+           text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px;
+           width: 501px;
+           height: 38px;
+           border: 11px solid #725697;
+           border-bottom-left-radius: 15px;
+           border-top-left-radius: 15px;
+           margin-right: 15px;
+           margin-left: 15px;
+           padding-top: 15px; 
+           color: #ffffff;
+           background-color: #725697;
+        }
+
+
+
+    /*Amazon Music Project Page*/
+
+        .first-box-container-amazon {      
+           margin: 6px;
+           margin-top: 75px;
+           padding: 12px;
+           border-radius: 15px;
+           background-color: #c1addc;   
+        }
+
+        .split-columns-amazon {
+           display: flex;
+           justify-content:space-between;
+           align-items: flex-start;
+           gap: 30px;
+          }
+
+        .overviewtext-amazon {
+           flex:1;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 25px;
+           max-width: 600px; 
+           margin: 0;
+           padding:0 25px; 
+        }
+
+        .overviewtext-amazon b {
+           font-family: 'Times New Roman', Times, serif; 
+           font-size: 35px;
+        }
+
+        .projectphoto-amazon { 
+           flex-shrink: 0;
+           max-width: 415px;
+           margin: 15px;
+           margin-right: 15px; 
+           margin-bottom: 15px;
+        }
+
+        .projectphoto-amazon img { 
+           display: block;  
+           max-width: 95%;
+           height: auto;
+        }              
+
+        .info-box-container-amazon {
+           border-bottom-left-radius: 15px;
+           border-bottom-right-radius:15px;
+           background-color: #725697;
+           margin-top: 0px;
+           margin-right: 21.2px;
+           padding: 15px;
+        }
+
+        .info-box-container-amazon b {
+           font-family: 'Times New Roman', Times, serif;
+           width: 349px;
+           height: 95px;
+           color: #ffffff;
+        }
+
+       .info-box-container-amazon p {
+           font-family: 'Times New Roman', Times, serif;
+           color: #e0dae9;
+       }
+
+       .h2-elements-amazon {
+           padding-top: 55px;
+       }
+
+       .design-box-amazon {
+           border: 5.5px solid #725697;
+           border-radius: 15px;
+           width: 278px;
+           height: 195px;
+           margin: 15px;
+           padding: 15px;
+           padding-bottom: 65px;
+           background-color: #ffffff;
+       }
+
+       .design-box-amazon h3 {
+           border: 3px solid #725697;
+           border-bottom-left-radius: 15px;
+           border-top-left-radius: 15px;
+           text-align: center;
+           background-color: #725697;
+           width: 290px;
+           height: 55px;
+           padding-top: 15px;  
+        }
+
+       .triple-column-amazon { 
+           display: flex;
+           position: relative;
+           justify-content: space-between;
+           gap: 25px; 
+           border: #725697;
+        }
+
+       .triple-column-amazon h3 { 
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px;
+           color: #ffffff;
+        }
+        
+        .title-spacing-amazon {
+           padding-top: 35px;
+        }
+
+
+       .triple-column-blackfont {
+           display: flex;
+           position: relative;
+           justify-content: space-between;
+           gap: 25px;
+           border: #725697;
+        }
+
+       .triple-column-blackfont h3 { 
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px;
+           color: #000000;
+        }
+  
+       .display-moveright h3 {
+           margin-right: 371px;
+       }
+
+       .companalysis-columns-amazon {
+           width: 518px;
+           height: 185px;
+           margin: 15px;
+           padding: 12px;
+           padding-bottom: 15px;
+           border: 5.5px solid #c1addc;
+           border-radius: 15px;
+           background-color: #c1addc;
+        }
+
+       .application-text {
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 25px;  
+       }
+
+       .spotifyphoto { 
+           display:flex;
+           width:35%; 
+           height: auto;
+           margin-top: -135px;
+           margin-left: 297px;     
+       }
+
+       .duolingophoto { 
+           display:flex;
+           width:64%; 
+           height: auto;
+           margin-left: 237px;
+           margin-top: -137px;
+       }
+
+       .usercharts {
+           justify-content: space-between;
+           text-align: center;
+           gap: 45px;           
+       }
+ 
+       .usercharts img { 
+           display: right;
+           width: 100%;
+           height: auto;    
+       }
+
+      .prototype-column-amazon {
+           justify-content: space-between;
+           margin: 15px;
+       }
+
+       .reflections-columns-amazon {
+           width: 518px;
+           height: 215px;
+           margin: 15px;
+           padding: 15px;
+           padding-bottom: 15px;
+           border: 5.5px solid #725697;
+           border-radius: 15px;
+           background-color: #ffffff;
+       }
+
+       .reflections-columns-amazon h3 {
+           display: center;
+           text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px;
+           width: 501px;
+           height: 38px;
+           margin-right: 15px;
+           margin-left: 15px;
+           padding-top: 15px; 
+           border-bottom-left-radius: 15px;
+           border-top-left-radius: 15px;
+           border: 11px solid #725697;
+           color: #ffffff;
+           background-color: #725697;    
+       }
+ 
+
+    /*Marge Mania Project Page*/
+
+     .first-box-container-marge {      
+            margin: 6px;
+            margin-top: 75px;
+            padding: 12px;
+            border-radius: 15px;
+            background-color: #c1addc;   
+        }
+
+
+       .split-columns-marge {
+           display: flex;
+           justify-content:space-between;
+           align-items: flex-start;
+           gap: 30px;
+       }
+
+       .overviewtext-marge {
+           flex: 1;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 25px;
+           max-width: 600px; 
+           margin: 0; 
+           padding:0 25px;
+       }
+
+       .overviewtext-marge b {   
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 35px;
+       }
+
+       .projectphoto-marge { 
+           flex-shrink: 0;
+           max-width: 415px;
+           margin: 15px;
+           margin-right: 15px;       
+           margin-bottom: 15px;
+
+        }
+
+       .projectphoto-marge img{ 
+           display: block;  
+           max-width:95%;
+           height:auto;
+        }              
+
+       .info-box-container-marge { 
+           margin-top: 0 px;
+           margin-right: 21.2px;
+           padding: 15px;
+           border-bottom-left-radius: 15px;
+           border-bottom-right-radius:15px;
+           background-color: #725697;
+       
+       }
+
+       .info-box-container-marge b {
+           font-family: 'Times New Roman', Times, serif;
+           width: 349px;
+           height: 95px;
+           color: #ffffff;
+       }
+
+       .info-box-container-marge p {
+           font-family: 'Times New Roman', Times, serif;
+           color: #e0dae9;    
+       }
+
+      .h2-elements-marge{
+           padding-top: 55px;
+       }
+
+      .triple-column-marge{
+         display: flex;
+         position: relative;
+         justify-content: space-between;
+         gap: 25px;
+         border: #725697;
+       }
+
+      .triple-column-marge h3{ 
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         color: #ffffff;
+       }
+
+      .design-box-marge {
+         width: 278px;
+         height: 168px;
+         border-radius: 15px;
+         border: 5.5px solid #725697;
+         background-color: #ffffff;
+         margin: 15px;
+         padding: 15px;
+         padding-bottom: 65px;
+       }
+
+       .design-box-marge h3 {
+         text-align: center;
+         width: 290px;
+         height: 55px;
+         padding-top: 15px;  
+         border: 3px solid #725697;
+         border-bottom-left-radius: 15px;
+         border-top-left-radius: 15px;
+         background-color: #725697;
+       }
+
+      .title-spacing-marge {
+         padding-top: 35px;
+      }
+
+      .website-pages-marge {
+         justify-content: space-between;
+         text-align: center;
+         gap: 45px;
+      }
+
+      .website-pages-marge img{ 
+         display: right;
+         width: 100%;
+         height: auto;  
+      }
+
+      .reflections-columns-marge{
+         width: 518px;
+         height: 215px;
+         margin: 15px;
+         padding: 15px;
+         border: 5.5px solid #725697;
+         border-radius: 15px;
+         background-color: #ffffff;
+         padding-bottom: 15px;
+      }
+
+       .reflections-columns-marge h3{
+         display: center;
+         text-align:center;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         width: 501px;
+         height: 38px;
+         margin-right: 15px;
+         margin-left: 15px;
+         padding-top: 15px; 
+         border: 11px solid #725697;
+         border-bottom-left-radius: 15px;
+         border-top-left-radius: 15px;
+         color: #ffffff;
+         background-color: #725697;
+        }
+
+/*Specific Animation Portfolio Project Pages*/
+ 
+      /*Backjump Project Page*/
+
+      .first-box-container-version-bj {
+           margin: 6px;
+           margin-top: 75px;
+           padding: 12px;
+           border-radius: 15px;
+           background-color: #c1addc;
+        }
+
+      .split-columns-bj{
+           display: flex;
+           justify-content:space-between;
+           align-items: flex-start;
+           gap: 30px;
+        }
+
+      .overviewtext-bj{
+           flex: 1;
+           font-family: 'Times New Roman', Times, serif;  
+           font-size: 25px;
+           max-width: 600px; 
+           margin: 15px;
+           padding:0 25px; 
+        }
+
+      .overviewtext-bj b{
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 35px;
+        }
+        
+      .overviewtext-bj ul{
+         flex: 1;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 25px;
+         max-width: 600px; 
+         margin: 15px;
+         padding:0 25px; 
+        }
+
+      .projectphoto-bj{ 
+         flex-shrink: 0;
+         max-width:415px;
+         margin: 15px;
+         margin-right: 15px;       
+      }
+
+     .projectphoto-bj img{ 
+         display: block;  
+         max-width:95%;
+         height: auto;
+      }              
+
+     .info-box-container-bj {
+         position: relative;
+         margin-top: 0 px;
+         margin-right: 21.2px;
+         padding: 15px;
+         border-bottom-left-radius: 15px;
+         border-bottom-right-radius:15px;
+         background-color: #725697;
+      }
+
+      .info-box-container-bj b {
+         font-family: 'Times New Roman', Times, serif; 
+         width: 349px;
+         height: 95px;
+         color: #ffffff;
+      }
+
+      .info-box-container-bj p {
+         font-family: 'Times New Roman', Times, serif;
+         color: #e0dae9; 
+      }
+
+     .h2-elements-bj {
+         font-family: 'Times New Roman', Times, serif;
+         padding-top: 55px;
+     }
+
+     .triple-column-bj {
+         display: flex;
+         position: relative;
+         justify-content: space-between;
+         gap: 25px;
+         border: #725697;
+     }
+
+    .triple-column-bj h3 { 
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         color: #ffffff;
+    }
+
+    .triple-column-bj img {
+         width:35%;
+         height:auto
+    }
+
+    .design-box-bj {
+         width: 278px;
+         height: 211px;
+         margin: 15px;
+         padding: 15px;
+         padding-bottom: 65px;
+         border: 5.5px solid #725697;
+         border-radius: 15px;
+         background-color: #ffffff;
+    }
+
+    .design-box-bj h3 {
+       text-align: center;
+       width: 290px;
+       height: 55px;
+       padding-top: 15px; 
+       border-bottom-left-radius: 15px;
+       border-top-left-radius: 15px;
+       border: 3px solid #725697;
+       background-color: #725697;
+    }
+
+    .title-spacing-bj {
+       padding-top: 35px;
+    }
+
+    .materials-column-bj {
+       justify-content: space-between;
+       font-family: 'Times New Roman', Times, serif;
+       width: 495px;
+       height: 651px;
+       margin: 15px;
+       padding: 15px;
+       padding-bottom: 65px;
+       border-radius: 15px;
+       border: 5.5px solid #725697;
+    }
+
+    .materials-column-bj h3 {
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       width: 493px;
+       height: 55px;
+       margin: 15px;
+       padding-top: 15px;  
+       border: 3px solid #725697;
+       border-bottom-left-radius: 15px;
+       border-top-left-radius: 15px;
+       background-color: #725697;      
+    }
+
+    .materials-column-bj h4 {
+       box-sizing: border-box; 
+       align-items:center;
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 18px;
+       width: 100%;
+       height: 1px;   
+       padding: 15px;
+       padding-bottom: 45px;  
+       border-radius: 15px;
+       border: 3px solid #725697;
+       color:white;
+       background-color: #725697;
+    }
+
+    .materials-columnbj b {
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 18px;
+    }
+
+    .results-bj {
+       margin-top: 100.5px;
+    }
+
+    .image-stills-bj { 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 85%;
+       height: auto; 
+       margin-left: 91px;
+    }
+
+    .image-stills-bj img { 
+       width: 100%; 
+       height: auto;
+    }
+
+
+
+
+  /*The Andrea Doria's Last Message Project Page*/
+
+     .first-box-container-version-ad {
+         border-radius: 15px;
+         margin: 6px;
+         margin-top: 75px; 
+         padding: 12px;
+         background-color: #c1addc;    
+      }
+ 
+
+     .split-columns-ad {
+         display: flex;
+         justify-content:space-between;
+         align-items: flex-start;
+         gap: 30px;
+      }
+
+
+     .overviewtext-ad {
+         flex:1;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 25px;
+         max-width: 600px; 
+         margin: 15px;
+         padding:0 25px; 
+      }
+
+     .overviewtext-ad b{
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 35px;
+      }
+
+    .overviewtext-ad ul{
+         flex:1;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 25px;
+         max-width: 600px; 
+         margin: 15px;
+         padding:0 25px; 
+    }
+
+    .projectphoto-ad{ 
+         flex-shrink: 0;
+         max-width:415px;
+         margin: 15px;
+         margin-right: 15px;       
+    }
+
+    .projectphoto-ad img{ 
+         display: block; 
+         max-width:95%;
+         height: auto;
+     }              
+
+    .info-box-container-ad {
+         background-color: #725697;
+         padding: 15px;
+         margin-top: 75px;
+         border-bottom-left-radius: 15px;
+         border-bottom-right-radius:15px;
+         margin-top: -89px;
+         margin-right: 21.2px;
+         z-index: 55;
+         position: relative;
+    }
+
+    .info-box-container-ad b {
+         color: #ffffff;
+         width: 349px;
+         height: 95px;
+         font-family: 'Times New Roman', Times, serif;
+    }
+
+    .info-box-container-ad p {
+         font-family: 'Times New Roman', Times, serif;
+         color: #e0dae9;
+    }
+
+    .h2-elements-ad{
+         font-family: 'Times New Roman', Times, serif;
+         padding-top: 55px;      
+    }
+
+    .triple-column-ad {
+         display: flex;
+         position: relative;
+         justify-content: space-between;
+         gap: 25px;
+         border: #725697;
+    }
+
+    .triple-column-ad h3 { 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #ffffff; 
+    }
+
+    .triple-column-ad img {
+        width:35%;
+        height:auto
+    }
+
+    .design-box-ad {
+        width: 278px;
+        height: 215px;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 65px;
+        border-radius: 15px;
+        border: 5.5px solid #725697;
+        background-color: #ffffff;
+    }
+
+    .design-box-ad h3 {
+        text-align: center;
+        width: 290px;
+        height: 55px;
+        padding-top: 15px;  
+        border: 3px solid #725697;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #725697;         
+    }
+
+    .title-spacing-ad {
+        padding-top: 35px;
+    }
+
+    .materials-column-ad {
+       justify-content: space-between;
+       font-family: 'Times New Roman', Times, serif;
+       width: 495px;
+       height: 668px;
+       margin: 15px;
+       padding: 15px;
+       padding-bottom: 65px;
+       border-radius: 15px;
+       border: 5.5px solid #725697;
+    }
+
+    .materials-column-ad h3 {
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       width: 493px;
+       height: 55px;
+       margin: 15px;
+       padding-top: 15px;  
+       border-bottom-left-radius: 15px;
+       border-top-left-radius: 15px;
+       border: 3px solid #725697;
+       background-color: #725697;   
+    }
+
+    .materials-column-ad h4 {
+       box-sizing: border-box; 
+       align-items: center;
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 18px; 
+       width: 100%;
+       height: 1px;
+       border-radius: 15px;
+       padding: 15px;
+       padding-bottom: 45px;
+       border: 3px solid #725697;
+       background-color: #725697;
+       color: white;
+    }
+
+    .materials-column-ad b {
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 18px;
+    }
+
+    .results-ad {
+       margin-top: 59px;
+    }
+
+    .design-box-festival-layout-ad {
+       width: 588px;
+       height: 15px;
+       margin: 15px;
+       padding: 15px;
+       padding-bottom: 65px;
+    }
+
+    .image-stills-ad { 
+       text-align: center;
+    }
+
+   .image-stills-ad img{ 
+       justify-content: space-between;
+       width: 100%; 
+       height: auto;  
+    }
+
+
+ 
+/*Ear-itation Project Page*/
+
+   .first-box-container-ear {
+        margin: 6px;
+        margin-top: 75px;
+        padding: 12px;
+        border-radius: 15px;
+        background-color: #c1addc;
+    }
+
+   .split-columns-ear {
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        gap: 30px;
+   }
+
+   .overviewtext-ear {
+        flex: 1;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        max-width: 600px; 
+        margin: 15px;
+        padding:0 25px;
+      }
+
+   .overviewtext-ear b {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;     
+   }
+
+
+   .overviewtext-ear ul {
+        flex: 1;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        max-width: 600px; 
+        margin: 15px;
+        padding:0 25px; 
+     }
+
+   .projectphoto-ear { 
+        flex-shrink: 0;
+        max-width: 415px;
+        margin: 15px;
+        margin-right: 15px;       
+         }
+
+   .projectphoto-ear img { 
+        display: block;  
+        max-width: 95%;
+        height: auto;
+    }              
+
+   .info-box-container-ear {
+        position: relative;
+        z-index: 55;
+        margin-top: 0px;
+        margin-right: 21.2px;
+        padding: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #725697;    
+    }
+
+    .info-box-container-ear b {
+       font-family: 'Times New Roman', Times, serif;
+       width: 349px;
+       height: 95px;
+       color: #ffffff;
+    }
+
+
+    .info-box-container-ear p {
+       font-family: 'Times New Roman', Times, serif;
+       color: #e0dae9;
+    }
+
+    .h2-elements-ear {
+       font-family: 'Times New Roman', Times, serif;
+       padding-top: 55px;
+    }
+
+    .triple-column-ear {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        gap: 25px;
+        border: #725697;
+     }
+
+    .triple-column-ear h3 { 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #ffffff;   
+    }
+
+    .design-box-ear {
+        width: 278px;
+        height: 215px;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 65px;
+        border-radius: 15px;
+        border: 5.5px solid #725697;
+        background-color: #ffffff;    
+    }
+ 
+    .triple-column-ear img {
+        width: 35%;
+        height: auto
+    }
+
+    .design-box-ear h3 {
+        text-align: center;
+        width: 290px;
+        height: 55px;
+        padding-top: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border: 3px solid #725697;  
+        background-color: #725697;
+    }
+
+    .title-spacing-ear {
+        padding-top: 35px;
+    }
+
+     .materials-column-ear {
+        justify-content: space-between;
+        font-family: 'Times New Roman', Times, serif;
+        width: 495px;
+        height: 615px;
+        margin: 15px;     
+        padding: 15px;
+        border-radius: 15px;
+        padding-bottom: 65px;
+        border: 5.5px solid #725697;
+     }
+
+     .materials-column-ear h3 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        width: 493px;
+        height: 55px;
+        margin: 15px;
+        padding-top: 15px;  
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border: 3px solid #725697;
+        background-color: #725697;
+     }
+
+     .materials-column-ear h4 {
+        box-sizing: border-box; 
+        align-items: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        width: 100%;
+        height: 1px;
+        border: 3px solid #725697;
+        border-radius: 15px;
+        padding: 15px;
+        padding-bottom: 45px;
+        color: white;
+        background-color: #725697;
+      }
+
+     .materials-column-ear b {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+      }
+
+     .results-ear {
+        margin-top: 137px;
+     }
+
+     .design-box-festival-layout-ear{
+        width: 588px;
+        height: 15px;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 65px;
+     }
+
+
+     .image-stills-ear {
+        text-align: center;
+        width: 80%;  
+        margin-left: 118px;
+     }
+
+     .image-stills-ear img{ 
+        justify-content: space-between;
+        width: 100%; 
+        height: auto;
+     }
+
+
+
+
+
+/*Responsive CSS*/
+       
+@media screen and (max-width: 768px) {
+ .top-container,
+ .bottom-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+  .top-half,
+  .bottom-half {
+    flex-direction: column;
+}
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  nav a {
+    margin: 5px 0;
+}
+
+  .image-grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+/*About Page Responsive CSS*/
+
+  .split-columns-aboutpage,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .projectphoto-aboutpage img {
+    max-width: 100%;
+}
+
+  h2 {
+    font-size: 20px;
+}
+
+  h3 {
+    font-size: 17.6px;
+}
+
+  p, li {
+    font-size: 15.2px;
+}
+
+}
+
+
+/* Menstrual Page Responsive CSS*/
+
+@media screen and (max-width: 768px) {
+
+  .split-columns-menstrual,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectphoto-menstrual img {
+    max-width: 92.5%;
+  }
+
+  .triple-column-menstrual {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .triple-column-menstrual > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;
+  }
+
+  p, li {
+    font-size: 15.2px;
+  }
+
+  .triple-column-menstrual {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px; 
+  }
+
+  .companalysis-columns-menstrual img {
+    display: block;
+    max-width: 100%;   
+    height: auto;     
+    margin: 15 auto;    
+  }
+
+  .flophoto img {
+    display: block;
+    max-width: 80%;  
+    height: auto;     
+    margin: 15 auto;    
+  }
+
+   .cluephoto img {
+    display: block;
+    max-width: 80%;   
+    height: auto;      
+    margin: 15 auto;
+    margin-left: 15px;   
+  }
+
+  .reflections-columns-menstrual {
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    max-width: 92.5%;
+    margin-bottom: 20px;
+  }
+
+  .reflections-columns-menstrual h3 {
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    text-align: center; 
+    font-size: 16px;      
+    font-weight: 600;
+    margin-bottom: 8px;    
+    max-width: 93%;       
+  }
+
+  .reflections-columns-menstrual ul {
+    font-size: 15.2px;
+    line-height: 1.4;
+    padding-left: 18px; 
+  }
+
+}
+
+
+
+/* Amazon Page Responsive CSS*/
+
+@media screen and (max-width: 768px) {
+
+  .split-columns-amazon,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectphoto-amazon img {
+    max-width: 92.5%;
+  }
+
+  .triple-column-amazon {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .triple-column-amazon > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+
+  .triple-column-blackfont{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 32px;
+  }
+  
+  .triple-column-blackfont> div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;
+ 
+  }
+
+  p, li {
+    font-size: 15.2px;
+  }
+
+  .companalysis-columns-amazon img
+   {
+    display: block;
+    max-width: 100%;  
+    height: auto;      
+    margin: 15 auto;    
+  }
+
+  .spotifyphoto img {
+    display: block;
+    max-width: 80%;  
+    height: auto;      
+    margin: 15 auto;   
+  }
+
+  .duolingophoto img {
+    display: block;
+    max-width: 80%;  
+    height: auto;      
+    margin: 15 auto;
+    margin-left: 15px;    
+  }
+
+  .reflections-columns-amazon {
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    max-width: 92.5%;
+    margin-bottom: 20px;
+  }
+
+.reflections-columns-amazon h3 {
+    word-wrap: break-word; 
+    overflow-wrap: break-word;   
+    text-align: center; 
+    font-size: 16px;      
+    font-weight: 600;
+     max-width: 93%;       
+    margin-bottom: 8px;    
+  }
+
+  .reflections-columns-amazon ul {
+    font-size: 15.2px;
+    padding-left: 18px;    
+    line-height: 1.4;
+  }
+}
+
+
+/* Marge Mania Page Responsive CSS*/
+
+ @media screen and (max-width: 768px) {
+
+  .split-columns-marge,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectphoto-marge img{
+     max-width: 93%;
+  }
+
+  .website-pages-marge img {
+    max-width: 100%;
+  }
+
+  .triple-column-marge {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .triple-column-marge  > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;
+ 
+  }
+
+  p, li {
+    font-size: 15.2px;
+  }
+
+  .reflections-columns-marge  {
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    max-width: 92.5%;
+    margin-bottom: 20px;
+  }
+
+  .reflections-columns-marge  h3 {
+    word-wrap: break-word; 
+    overflow-wrap: break-word;  
+    text-align: center;  
+    font-size: 16px;      
+    font-weight: 600px;
+    max-width: 93%; 
+    margin-bottom: 8px;              
+  }
+
+  .reflections-columns-marge  ul {
+    font-size: 15.2px;
+    padding-left: 18px;    
+    line-height: 1.4;
+  }
+
+ }
+
+
+/* Backjump Page Responsive CSS*/
+
+ @media screen and (max-width: 768px) {
+
+  .split-columns-bj,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projectphoto-bj img{ 
+    max-width: 92.4%;
+  }
+
+  .triple-column-bj {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .triple-column-bj  > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;
+ 
+  }
+
+  p, li {
+    font-size: 15.2px;
+  }
+
+  .image-stills-bj img {
+    max-width: 100%;
+    margin-right: 125px; 
+ }
+}
+
+
+/* Andrea Doria Page Responsive CSS*/
+
+ @media screen and (max-width: 768px) {
+
+  .split-columns-ad,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectphoto-ad img{ 
+    max-width: 92.4%;
+  }
+
+  .triple-column-ad {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .triple-column-ad li {
+    gap: 0px;
+  }
+
+  .triple-column-ad  > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;
+ 
+  }
+
+  p, li {
+    font-size: 15.2px;;
+  }
+
+  .image-stills-ad img {
+    max-width: 100%;
+    margin-right: 125px;  
+ }
+}
+
+/*Ear-itation Page Responsive CSS*/
+
+ @media screen and (max-width: 768px) {
+
+  .split-columns-ear,
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectphoto-ear img{ 
+    max-width: 92.4%;
+  }
+
+  .triple-column-ear {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .triple-column-ear li {
+    gap: 0px; 
+  }
+
+  .triple-column-ear  > div {
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17.6px;;
+ 
+  }
+
+  p, li {
+    font-size: 15.2px;
+  }
+
+  .image-stills-ear img {
+   display: flex;
+    max-width: 78%;
+    margin-right: 85%; 
+  }
+}
