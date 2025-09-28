@@ -632,7 +632,7 @@
         }
 
         .prototype-menstrual img { 
-           display: right;
+           
            width: 100%;
            height: auto; 
         }
@@ -681,7 +681,6 @@
           }
 
         .reflections-columns-menstrual h3 {
-           display: center;
            text-align: center;
            font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
@@ -867,7 +866,6 @@
        }
  
        .usercharts img { 
-           display: right;
            width: 100%;
            height: auto;    
        }
@@ -889,7 +887,6 @@
        }
 
        .reflections-columns-amazon h3 {
-           display: center;
            text-align: center;
            font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
@@ -954,7 +951,6 @@
         }              
 
        .info-box-container-marge { 
-           margin-top: 0 px;
            margin-right: 21.2px;
            padding: 15px;
            border-bottom-left-radius: 15px;
@@ -1026,7 +1022,6 @@
       }
 
       .website-pages-marge img{ 
-         display: right;
          width: 100%;
          height: auto;  
       }
@@ -1043,8 +1038,7 @@
       }
 
        .reflections-columns-marge h3{
-         display: center;
-         text-align:center;
+         text-align: center;
          font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          width: 501px;
@@ -1116,7 +1110,6 @@
 
      .info-box-container-bj {
          position: relative;
-         margin-top: 0 px;
          margin-right: 21.2px;
          padding: 15px;
          border-bottom-left-radius: 15px;
@@ -1249,7 +1242,6 @@
        width: 100%; 
        height: auto;
     }
-
 
 
 
@@ -1758,21 +1750,21 @@
     display: block;
     max-width: 100%;   
     height: auto;     
-    margin: 15 auto;    
+    margin: 15px;    
   }
 
   .flophoto img {
     display: block;
     max-width: 80%;  
     height: auto;     
-    margin: 15 auto;    
+    margin: 15px;    
   }
 
    .cluephoto img {
     display: block;
     max-width: 80%;   
     height: auto;      
-    margin: 15 auto;
+    margin: 15px;
     margin-left: 15px;   
   }
 
@@ -1859,7 +1851,7 @@
     display: block;
     max-width: 100%;  
     height: auto;      
-    margin: 15 auto;    
+    margin: 15px;    
   }
 
   .spotifyphoto img {
@@ -1873,7 +1865,7 @@
     display: block;
     max-width: 80%;  
     height: auto;      
-    margin: 15 auto;
+    margin: 15px;
     margin-left: 15px;    
   }
 
@@ -1958,7 +1950,6 @@
     overflow-wrap: break-word;  
     text-align: center;  
     font-size: 16px;      
-    font-weight: 600px;
     max-width: 93%; 
     margin-bottom: 8px;              
   }
