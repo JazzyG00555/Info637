@@ -25,33 +25,24 @@
     }
 
     h1 {
-        font-family: 'Times New Roman', Times, serif;
         color: #000000;     
     }
 
     h2 { 
-        font-family: 'Times New Roman', Times, serif;
         margin-left: 0px;  
     }
 
     h3 {
-        font-family: 'Times New Roman', Times, serif;
         color: #000000;     
-    }
-
-    h4 {
-        font-family: 'Times New Roman', Times, serif;
     }
         
     ul {
-        font-family: 'Times New Roman', Times, serif;
         margin: 0;
         margin-left: 0px;
         padding-left: 10px;     
     }
 
     ul.dashed {
-        font-family: 'Times New Roman', Times, serif;
         list-style-type: none;
     }
 
@@ -97,7 +88,6 @@
 /*Footer*/
 
   footer {
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 60px; 
     padding: 12px 0;
@@ -126,7 +116,6 @@
 
      .overviewtext-aboutpage {
         flex: 1;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         max-width: 600px;  
         margin: 15px;
@@ -134,10 +123,9 @@
       }
 
      .overviewtext-aboutpage b {
-        font-family: 'Times New Roman', Times, serif;
         font-size: 35px;
         padding: 15px;
-        border-radius: 15px;;
+        border-radius: 15px;
         border: #725697;
         color: white;
         background-color: #725697;        
@@ -145,7 +133,6 @@
 
      .overviewtext-aboutpage ul {
         flex: 1;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         max-width: 600px; 
         margin: 15px;
@@ -179,12 +166,10 @@
     }
 
     .font-size {
-        font-family: 'Times New Roman', Times, serif;
         font-size: 19.5px;  
     }
 
     .paragraph-font-size { 
-        font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
     }
 
@@ -211,7 +196,6 @@
 
           .description{ 
             flex: 1;
-            font-family: 'Times New Roman', Times, serif;
             font-size: 28px;
             margin: 35px;
             margin-right: 35px;
@@ -244,7 +228,6 @@
 
        .tab {
           flex: 1;
-          font-family: 'Times New Roman', Times, serif;
           font-size: 20px; 
           text-decoration: none;
           margin: 0;
@@ -300,7 +283,6 @@
   
           .image-item-boiler-plate p { 
                 display: block;
-                font-family: 'Times New Roman', Times, serif;
                 font-size: 35px;   
                 max-width: 90%;   
                 height: auto;
@@ -354,7 +336,6 @@
                    text-align: center;
                    top: 50%;
                    left: 50%;
-                   font-family: 'Times New Roman', Times, serif;
                    font-weight: bold;   
                    opacity: 0;
                    transition: opacity 0.5s ease;
@@ -407,11 +388,10 @@
 
         .image-item-boiler-plate-two p { 
             display: block;
-            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
             max-width: 90%;   
             height: auto;
             margin: 10px;
-            font-size: 35px;
             color: #000000; 
          }
 
@@ -457,7 +437,6 @@
                    text-align: center;
                    top: 50%;
                    left: 50%;
-                   font-family: 'Times New Roman', Times, serif;
                    font-weight: bold;  
                    opacity: 0;
                    transition: opacity 0.5s ease;
@@ -498,7 +477,6 @@
 
         .overviewtext-menstrual {
             flex: 1;
-            font-family: 'Times New Roman', Times, serif;
             font-size: 25px;
             max-width: 600px; 
             margin: 0;
@@ -506,7 +484,6 @@
         }
 
         .overviewtext-menstrual b {
-            font-family: 'Times New Roman', Times, serif;
             font-size: 35px;
         }
 
@@ -534,14 +511,12 @@
         }
 
        .info-box-container-menstrual b {
-            font-family: 'Times New Roman', Times, serif;
             width: 349px;
             height: 95px;
             color: #ffffff;
        }
 
        .info-box-container-menstrual p {
-           font-family: 'Times New Roman', Times, serif;
            color: #e0dae9;
        }
 
@@ -559,7 +534,6 @@
         }
 
         .triple-column-menstrual h3 { 
-           font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
            color: #ffffff;
         }
@@ -602,7 +576,6 @@
         }
 
         .application-text-menstrual {
-           font-family: 'Times New Roman', Times, serif;
            font-size: 25px;            
         }
 
@@ -651,7 +624,6 @@
 
         .reflections-columns-menstrual h3 {
            text-align: center;
-           font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
            width: 501px;
            height: 38px;
@@ -686,7 +658,6 @@
 
         .overviewtext-amazon {
            flex: 1;
-           font-family: 'Times New Roman', Times, serif;
            font-size: 25px;
            max-width: 600px; 
            margin: 0;
@@ -694,7 +665,6 @@
         }
 
         .overviewtext-amazon b {
-           font-family: 'Times New Roman', Times, serif; 
            font-size: 35px;
         }
 
@@ -722,14 +692,12 @@
         }
 
         .info-box-container-amazon b {
-           font-family: 'Times New Roman', Times, serif;
            width: 349px;
            height: 95px;
            color: #ffffff;
         }
 
        .info-box-container-amazon p {
-           font-family: 'Times New Roman', Times, serif;
            color: #e0dae9;
        }
 
@@ -768,7 +736,6 @@
         }
 
        .triple-column-amazon h3 { 
-           font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
            color: #ffffff;
         }
@@ -787,7 +754,6 @@
         }
 
        .triple-column-blackfont h3 { 
-           font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
            color: #000000;
         }
@@ -808,7 +774,6 @@
         }
 
        .application-text {
-           font-family: 'Times New Roman', Times, serif;
            font-size: 25px;  
        }
 
@@ -857,7 +822,6 @@
 
        .reflections-columns-amazon h3 {
            text-align: center;
-           font-family: 'Times New Roman', Times, serif;
            font-size: 20px;
            width: 501px;
            height: 38px;
@@ -892,7 +856,6 @@
 
        .overviewtext-marge {
            flex: 1;
-           font-family: 'Times New Roman', Times, serif;
            font-size: 25px;
            max-width: 600px; 
            margin: 0; 
@@ -928,14 +891,12 @@
        }
 
        .info-box-container-marge b {
-           font-family: 'Times New Roman', Times, serif;
            width: 349px;
            height: 95px;
            color: #ffffff;
        }
 
        .info-box-container-marge p {
-           font-family: 'Times New Roman', Times, serif;
            color: #e0dae9;    
        }
 
@@ -952,7 +913,6 @@
        }
 
       .triple-column-marge h3 { 
-         font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          color: #ffffff;
        }
@@ -1007,7 +967,6 @@
 
        .reflections-columns-marge h3 {
          text-align: center;
-         font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          width: 501px;
          height: 38px;
@@ -1041,8 +1000,7 @@
         }
 
       .overviewtext-bj {
-           flex: 1;
-           font-family: 'Times New Roman', Times, serif;  
+           flex: 1; 
            font-size: 25px;
            max-width: 600px; 
            margin: 15px;
@@ -1050,13 +1008,11 @@
         }
 
       .overviewtext-bj b {
-           font-family: 'Times New Roman', Times, serif;
            font-size: 35px;
         }
         
       .overviewtext-bj ul {
          flex: 1;
-         font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
          max-width: 600px; 
          margin: 15px;
@@ -1086,19 +1042,16 @@
       }
 
       .info-box-container-bj b {
-         font-family: 'Times New Roman', Times, serif; 
          width: 349px;
          height: 95px;
          color: #ffffff;
       }
 
       .info-box-container-bj p {
-         font-family: 'Times New Roman', Times, serif;
          color: #e0dae9; 
       }
 
      .h2-elements-bj {
-         font-family: 'Times New Roman', Times, serif;
          padding-top: 55px;
      }
 
@@ -1111,7 +1064,6 @@
      }
 
     .triple-column-bj h3 { 
-         font-family: 'Times New Roman', Times, serif;
          font-size: 20px;
          color: #ffffff;
     }
@@ -1149,7 +1101,6 @@
 
     .materials-column-bj {
        justify-content: space-between;
-       font-family: 'Times New Roman', Times, serif;
        width: 495px;
        height: 651px;
        margin: 15px;
@@ -1161,7 +1112,6 @@
 
     .materials-column-bj h3 {
        text-align: center;
-       font-family: 'Times New Roman', Times, serif;
        width: 493px;
        height: 55px;
        margin: 15px;
@@ -1176,7 +1126,6 @@
        box-sizing: border-box; 
        align-items: center;
        text-align: center;
-       font-family: 'Times New Roman', Times, serif;
        font-size: 18px;
        width: 100%;
        height: 1px;   
@@ -1189,7 +1138,6 @@
     }
 
     .materials-column-bj b {
-       font-family: 'Times New Roman', Times, serif;
        font-size: 18px;
     }
 
@@ -1234,7 +1182,6 @@
 
      .overviewtext-ad {
          flex: 1;
-         font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
          max-width: 600px; 
          margin: 15px;
@@ -1242,13 +1189,11 @@
       }
 
      .overviewtext-ad b{
-         font-family: 'Times New Roman', Times, serif;
          font-size: 35px;
       }
 
     .overviewtext-ad ul{
          flex: 1;
-         font-family: 'Times New Roman', Times, serif;
          font-size: 25px;
          max-width: 600px; 
          margin: 15px;
@@ -1280,19 +1225,17 @@
     }
 
     .info-box-container-ad b {
-         color: #ffffff;
          width: 349px;
          height: 95px;
-         font-family: 'Times New Roman', Times, serif;
+         color: #ffffff;
+        
     }
 
     .info-box-container-ad p {
-         font-family: 'Times New Roman', Times, serif;
          color: #e0dae9;
     }
 
     .h2-elements-ad {
-         font-family: 'Times New Roman', Times, serif;
          padding-top: 55px;      
     }
 
@@ -1305,7 +1248,6 @@
     }
 
     .triple-column-ad h3 { 
-        font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         color: #ffffff; 
     }
@@ -1343,7 +1285,6 @@
 
     .materials-column-ad {
        justify-content: space-between;
-       font-family: 'Times New Roman', Times, serif;
        width: 495px;
        height: 668px;
        margin: 15px;
@@ -1355,7 +1296,6 @@
 
     .materials-column-ad h3 {
        text-align: center;
-       font-family: 'Times New Roman', Times, serif;
        width: 493px;
        height: 55px;
        margin: 15px;
@@ -1370,7 +1310,6 @@
        box-sizing: border-box; 
        align-items: center;
        text-align: center;
-       font-family: 'Times New Roman', Times, serif;
        font-size: 18px; 
        width: 100%;
        height: 1px;
@@ -1383,7 +1322,6 @@
     }
 
     .materials-column-ad b {
-       font-family: 'Times New Roman', Times, serif;
        font-size: 18px;
     }
 
@@ -1430,7 +1368,6 @@
 
    .overviewtext-ear {
         flex: 1;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         max-width: 600px; 
         margin: 15px;
@@ -1438,14 +1375,12 @@
       }
 
    .overviewtext-ear b {
-        font-family: 'Times New Roman', Times, serif;
         font-size: 35px;     
    }
 
 
    .overviewtext-ear ul {
         flex: 1;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         max-width: 600px; 
         margin: 15px;
@@ -1477,7 +1412,6 @@
     }
 
     .info-box-container-ear b {
-       font-family: 'Times New Roman', Times, serif;
        width: 349px;
        height: 95px;
        color: #ffffff;
@@ -1485,12 +1419,10 @@
 
 
     .info-box-container-ear p {
-       font-family: 'Times New Roman', Times, serif;
        color: #e0dae9;
     }
 
     .h2-elements-ear {
-       font-family: 'Times New Roman', Times, serif;
        padding-top: 55px;
     }
 
@@ -1503,7 +1435,6 @@
      }
 
     .triple-column-ear h3 { 
-        font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         color: #ffffff;   
     }
@@ -1541,7 +1472,6 @@
 
      .materials-column-ear {
         justify-content: space-between;
-        font-family: 'Times New Roman', Times, serif;
         width: 495px;
         height: 615px;
         margin: 15px;     
@@ -1553,7 +1483,6 @@
 
      .materials-column-ear h3 {
         text-align: center;
-        font-family: 'Times New Roman', Times, serif;
         width: 493px;
         height: 55px;
         margin: 15px;
@@ -1568,7 +1497,6 @@
         box-sizing: border-box; 
         align-items: center;
         text-align: center;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
         width: 100%;
         height: 1px;
@@ -1581,7 +1509,6 @@
       }
 
      .materials-column-ear b {
-        font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
       }
 
