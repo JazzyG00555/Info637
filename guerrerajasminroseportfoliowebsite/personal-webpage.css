@@ -1646,7 +1646,6 @@
 
 
 
-
 /*Responsive CSS*/
        
 @media screen and (max-width: 768px) {
@@ -1858,7 +1857,7 @@
     display: block;
     max-width: 80%;  
     height: auto;      
-    margin: 15 auto;   
+    margin: 15px;   
   }
 
   .duolingophoto img {
