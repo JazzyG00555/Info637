@@ -1,5 +1,6 @@
 /*Main Structure*/
 
+  /*Navigation*/
     nav {
         font-family: 'Times New Roman', Times, serif;
         margin-bottom: 20px;
@@ -10,8 +11,8 @@
         text-decoration: none;
         color: #333;
           }
-
-          
+ 
+  /*Body*/
     body {
         font-family: 'Times New Roman', Times, serif;
         line-height: 1.6;
@@ -19,6 +20,7 @@
         padding-left: 82px;
     }
 
+  /*Main Text Elements and Images*/
     img {
         max-width: 75%;
         height: auto;           
@@ -35,7 +37,8 @@
     h3 {
         color: #000000;     
     }
-        
+
+  /*Lists*/        
     ul {
         margin: 0;
         margin-left: 0px;
@@ -54,7 +57,8 @@
         content: "-";
         text-indent: -5px;
     }
-
+    
+  /*Main Classes*/
     .container { 
         max-width: 1200px;
         margin: 0 auto;
@@ -84,9 +88,7 @@
         width: 38%;  
     }
 
-
-/*Footer*/
-
+  /*Footer*/
   footer {
     text-align: center;
     margin-top: 60px; 
@@ -94,6 +96,7 @@
     color: #ffffff;      
     background-color: #725697;
   }
+
 
 
 /*About Page Structure*/
@@ -176,8 +179,7 @@
 
 /*Portfolio Gallery Pages*/
 
-        /*Description Box*/
-
+    /*Description Box*/
           .first-box-container-description {
             border-radius: 15px;
             margin: 6px;
@@ -217,8 +219,7 @@
           }
 
 
-        /*Tabs Section*/
-
+    /*Tabs Section*/
         .tabs {    
            display: flex;
            justify-content: space-between;
@@ -254,7 +255,7 @@
        
     /*Images and Grids*/
 
-          /*UX Projects Portfolio*/
+          /*UX Projects Portfolio Grid*/
 
              .image-grid {
                   display: grid;
@@ -291,10 +292,9 @@
            }
 
 
-/*Overlay of UX Project Portfolio Pages*/
+ /*Overlay of UX Project Portfolio Pages*/
   
-          /*The Container*/
-
+        /*The Container*/
                .image-overlay {
                    position: relative;
                    overflow: hidden;
@@ -302,8 +302,7 @@
                    height: 520px;     
                 } 
        
-          /*The Image*/
-
+        /*The Image*/
                .image-overlay img {
                    object-fit: cover;     
                    width: 550px;         
@@ -311,8 +310,7 @@
                    transition: transform 0.5s ease;
                 }
 
-          /*Transparent Overlay */
-              
+        /*The Transparent Overlay */    
                .overlay {
                    display: flex;     
                    position: absolute;       
@@ -329,8 +327,7 @@
                    transition: opacity 0.8s ease;
                 }
 
-          /*Centered Text*/
-
+          /*The Centered Text*/
                .overlay-text {
                    position: absolute;
                    text-align: center;
@@ -343,8 +340,7 @@
                    padding: 20px;
                 }
 
-          /*Hover Effects*/
-
+          /*The Hover*/
                .image-overlay:hover img {
                    transform: scale(1.05);
                 }
@@ -358,7 +354,7 @@
                 }
 
 
-     /*Animated Films Portfolio*/
+  /*Animated Films Portfolio Grid*/
 
         .image-grid-two {
            display: grid;
@@ -396,9 +392,9 @@
          }
 
 
-/*Overlay Options of Animated Films Portfolio Pages*/
+ /*Overlay of Animated Films Portfolio Pages*/
 
-          /*The Container*/
+        /*The Container*/
                 .image-overlay-two {
                      position: relative;
                      overflow: hidden;
@@ -406,7 +402,7 @@
                      height: 555px;  
                 } 
 
-           /*The Image*/
+        /*The Image*/
                .image-overlay-two img {
                    object-fit: cover;   
                    width: 535px;         
@@ -414,7 +410,7 @@
                    transition: transform 0.5s ease;  
                 }
 
-           /*Transparent Overlay */
+        /*The Transparent Overlay */
                 .overlay-two {
                    display: flex;
                    position: absolute;
@@ -431,7 +427,7 @@
                    transition: opacity 0.8s ease;  
                 }
 
-           /*Centered Text*/
+        /*The Centered Text*/
                .overlay-text-two {
                    position: absolute;
                    text-align: center;
@@ -443,7 +439,7 @@
                    transform: translate(-50%, -50%);
                 }
 
-           /*Hover Effects */
+        /*The Hover Effects */
                 .image-overlay-two:hover img {
                    transform: scale(1.05);
                 }
@@ -456,10 +452,15 @@
                   opacity: 1;
                 }
 
+
+
+
 /*Specific UX Project Detailed Portfolio Page*/
 
-    /*Apple Health Menstrual Health Application Portfolio Project Page*/
+  /*Apple Health Menstrual Health Application Portfolio Project Page*/
 
+
+    /*Title Box with Picture*/
         .first-box-container-menstrual {      
             margin: 6px;
             margin-top: 75px;
@@ -520,6 +521,7 @@
            color: #e0dae9;
        }
 
+    /*Design Considerations*/
        .h2-elements-menstrual {
            padding-top: 55px;
        } 
@@ -560,10 +562,12 @@
            padding-top: 15px;  
         }
 
+    /*Research*/
         .title-spacing-menstrual {
            padding-top: 35px;
         }
 
+    /*Competitive Analysis*/
         .companalysis-columns-menstrual {
            width: 518px;
            height: 283px;
@@ -595,6 +599,7 @@
            margin-top: -185px;   
         }
 
+    /*Charts, Graphs and Grids*/
         .prototype-menstrual {
            justify-content: space-between;
            text-align: center;
@@ -606,11 +611,13 @@
            height: auto; 
         }
 
+    /*Feature Developments*/
         .featuredev-column-menstrual {
            justify-content: space-between;
            margin: 15px;
         }
 
+    /*Reflections*/    
         .reflections-columns-menstrual {
            width: 518px;
            height: 285px;
@@ -638,9 +645,9 @@
         }
 
 
+/*Amazon Music Project Page*/
 
-    /*Amazon Music Project Page*/
-
+    /*Title Box with Picture*/
         .first-box-container-amazon {      
            margin: 6px;
            margin-top: 75px;
@@ -701,6 +708,7 @@
            color: #e0dae9;
        }
 
+    /*Design Considerations*/
        .h2-elements-amazon {
            padding-top: 55px;
        }
@@ -740,6 +748,7 @@
            color: #ffffff;
         }
         
+    /*Research*/
         .title-spacing-amazon {
            padding-top: 35px;
         }
@@ -758,10 +767,11 @@
            color: #000000;
         }
   
-       .display-moveright h3 {
+       .shift-placement h3 {
            margin-right: 371px;
-       }
+        }
 
+    /*Competitive Analysis*/
        .companalysis-columns-amazon {
            width: 518px;
            height: 185px;
@@ -793,6 +803,7 @@
            margin-top: -137px;
        }
 
+    /*Charts, Graphs and Grids*/
        .usercharts {
            justify-content: space-between;
            text-align: center;
@@ -804,11 +815,13 @@
            height: auto;    
        }
 
+    /*Feature Developments*/
       .featuredev-column-amazon {
            justify-content: space-between;
            margin: 15px;
        }
 
+    /*Reflections*/
        .reflections-columns-amazon {
            width: 518px;
            height: 215px;
@@ -836,8 +849,10 @@
        }
  
 
-    /*Marge Mania Project Page*/
 
+ /*Marge Mania Project Page*/
+     
+    /*Title Box with Picture*/
      .first-box-container-marge {      
             margin: 6px;
             margin-top: 75px;
@@ -900,6 +915,7 @@
            color: #e0dae9;    
        }
 
+    /*Design Considerations*/
       .h2-elements-marge {
            padding-top: 55px;
        }
@@ -939,6 +955,7 @@
          background-color: #725697;
        }
 
+    /*Each Website Page*/
       .title-spacing-marge {
          padding-top: 35px;
       }
@@ -954,6 +971,7 @@
          height: auto;  
       }
 
+    /*Reflections*/
       .reflections-columns-marge {
          width: 518px;
          height: 215px;
@@ -980,10 +998,14 @@
          background-color: #725697;
         }
 
-/*Specific Animation Portfolio Detailed Project Pages*/
- 
-      /*Backjump Project Page*/
 
+
+
+/*Specific Animation Portfolio Detailed Project Pages*/
+
+  /*Backjump Project Page*/
+
+    /*Title Box with Picture*/
       .first-box-container-version-bj {
            margin: 6px;
            margin-top: 75px;
@@ -1051,6 +1073,8 @@
          color: #e0dae9; 
       }
 
+
+    /*Production Process*/
      .h2-elements-bj {
          padding-top: 55px;
      }
@@ -1095,10 +1119,12 @@
        background-color: #725697;
     }
 
+  /*Budget*/
     .title-spacing-bj {
        padding-top: 35px;
     }
 
+  /*Materials, Software Used and Production Labour*/
     .materials-column-bj {
        justify-content: space-between;
        width: 495px;
@@ -1145,6 +1171,7 @@
        margin-top: 100.5px;
     }
 
+  /*Stills*/
     .image-stills-bj { 
        display: flex;
        justify-content: center;
@@ -1163,6 +1190,7 @@
 
   /*The Andrea Doria's Last Message Project Page*/
 
+    /*Title Box with Picture*/
      .first-box-container-version-ad {
          border-radius: 15px;
          margin: 6px;
@@ -1170,15 +1198,14 @@
          padding: 12px;
          background-color: #c1addc;    
       }
- 
 
+    /*Production Process*/
      .split-columns-ad {
          display: flex;
          justify-content: space-between;
          align-items: flex-start;
          gap: 30px;
       }
-
 
      .overviewtext-ad {
          flex: 1;
@@ -1235,6 +1262,7 @@
          color: #e0dae9;
     }
 
+    /*Production Process*/
     .h2-elements-ad {
          padding-top: 55px;      
     }
@@ -1279,10 +1307,12 @@
         background-color: #725697;         
     }
 
+   /*Budget*/
     .title-spacing-ad {
         padding-top: 35px;
     }
 
+   /*Materials, Software Used and Production Labour*/
     .materials-column-ad {
        justify-content: space-between;
        width: 495px;
@@ -1329,6 +1359,7 @@
        margin-top: 59px;
     }
 
+   /*Film Festival List*/
     .design-box-festival-layout-ad {
        width: 588px;
        height: 15px;
@@ -1337,6 +1368,7 @@
        padding-bottom: 65px;
     }
 
+   /*Stills*/
     .image-stills-ad { 
        text-align: center;
     }
@@ -1351,6 +1383,7 @@
  
 /*Ear-itation Project Page*/
 
+  /*Title Box with Picture*/
    .first-box-container-ear {
         margin: 6px;
         margin-top: 75px;
@@ -1421,7 +1454,8 @@
     .info-box-container-ear p {
        color: #e0dae9;
     }
-
+  
+  /*Production Process*/
     .h2-elements-ear {
        padding-top: 55px;
     }
@@ -1466,10 +1500,12 @@
         background-color: #725697;
     }
 
+  /*Budget*/
     .title-spacing-ear {
         padding-top: 35px;
     }
 
+   /*Materials, Software Used and Production Labour*/
      .materials-column-ear {
         justify-content: space-between;
         width: 495px;
@@ -1516,6 +1552,7 @@
         margin-top: 137px;
      }
 
+    /*Film Festival List*/
      .design-box-festival-layout-ear {
         width: 588px;
         height: 15px;
@@ -1524,7 +1561,7 @@
         padding-bottom: 65px;
      }
 
-
+    /*Stills*/
      .image-stills-ear {
         text-align: center;
         width: 80%;  
@@ -1536,10 +1573,6 @@
         width: 100%; 
         height: auto;
      }
-
-
-
-
 
 
 
@@ -1685,7 +1718,6 @@
 }
 
 
-
 /*Amazon Page Responsive CSS*/
 
 @media screen and (max-width: 768px) {
@@ -1826,7 +1858,6 @@
   }
 
  }
-
 
 
 /*Backjump Page Responsive CSS*/
