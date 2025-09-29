@@ -1616,7 +1616,7 @@
 
 .double-columns {
     display: flex;
-  flex-wrap: wrap; /* Allows stacking on smaller screens */
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: space-between;
   
@@ -1766,8 +1766,7 @@
     min-width: 280px;
   }
 
-  .companalysis-columns-amazon img
-   {
+  .companalysis-columns-amazon img {
     display: block;
     max-width: 100%;  
     height: auto;      
