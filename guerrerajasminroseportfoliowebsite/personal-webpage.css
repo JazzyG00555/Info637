@@ -1578,7 +1578,7 @@
 
 
 /*Responsive CSS*/
-       /*I tried my best, but this was my first time ever trying Responsive CSS. 
+       /*I tried my best. This was my first time trying Responsive CSS. 
        I still want to make changes and make this part better in the future, 
        I simply ran out of time to do so.*/   
 
@@ -1614,12 +1614,11 @@
     grid-template-columns: repeat(1, 1fr);
 }
 
-.double-columns {
-    display: flex;
-  flex-wrap: wrap; 
-  align-items: center;
-  justify-content: space-between;
-  
+  .double-columns {
+   display: flex;
+   flex-wrap: wrap; 
+   align-items: center;
+   justify-content: space-between;
 }
 
 
@@ -1715,8 +1714,9 @@
     text-align: center; 
     font-size: 16px;      
     font-weight: 600;
+    max-width: 93%;      
     margin-bottom: 8px;    
-    max-width: 93%;       
+    
   }
 
   .reflections-columns-menstrual ul {
@@ -1743,9 +1743,9 @@
   }
 
   .triple-column-amazon {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -1756,8 +1756,8 @@
   }
 
   .triple-column-blackfont{
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
   }
   
@@ -1801,7 +1801,7 @@
     text-align: center; 
     font-size: 16px;      
     font-weight: 600;
-     max-width: 93%;       
+    max-width: 93%;       
     margin-bottom: 8px;    
   }
 
@@ -1832,9 +1832,9 @@
   }
 
   .triple-column-marge {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -1884,9 +1884,9 @@
   }
 
   .triple-column-bj {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -1917,9 +1917,9 @@
   }
 
   .triple-column-ad {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -1955,9 +1955,9 @@
   }
 
   .triple-column-ear {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -1972,7 +1972,7 @@
   }
 
   .image-stills-ear img {
-   display: flex;
+    display: flex;
     max-width: 78%;
     margin-right: 85%; 
   }
