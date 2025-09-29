@@ -1607,8 +1607,19 @@
     margin: 5px 0;
 }
 
+
+/*Gallery Page Responsive CSS*/
+
   .image-grid {
     grid-template-columns: repeat(1, 1fr);
+}
+
+.double-columns {
+    display: flex;
+  flex-wrap: wrap; /* Allows stacking on smaller screens */
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 
@@ -1635,7 +1646,6 @@
   p, li {
     font-size: 15.2px;
 }
-
 }
 
 
